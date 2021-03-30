@@ -1,0 +1,16 @@
+{
+    "header": "Bücher",
+    "create": "Meisterwerk schaffen",
+    "creating": "Wir schaffen ein Meisterwerk",
+    "name": "Name des Meisterwerks",
+    "description": "Beschreibung",
+    "descriptionHelp": "Kurze. Sie können es später ändern.",
+    "coverUrl": "Titel-URL",
+    "coverUrlHelp": "Nicht benötigt. Sie können es später hochladen.",
+    "createButton": "Erstellen",
+    "newBookErrorHeader": "Error",
+    "newBookErrorHelp": "Versuchen Sie es in Kürze erneut.",
+    "networkError": "Bitte überprüfen Sie Ihr Netzwerk.",
+    "nameFieldRequired": "Feld \"Name\" ist erforderlich.",
+    "required": "Dieses Feld ist erforderlich."
+}

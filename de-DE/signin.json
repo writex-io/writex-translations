@@ -1,0 +1,11 @@
+{
+    "title": "Sign in German",
+    "slogan": "Writex.io ist ein Editor mit Superkräften. Es bietet Schriftstellern auf der ganzen Welt extreme Möglichkeiten und ein herausragendes individuelles Schreiberlebnis.",
+    "linkFacebook": "Link Facebook",
+    "proceedWithFacebook": "Proceed wth Facebook",
+    "signInWithFacebook": "Facebook",
+    "linkGoogle": "Link Google",
+    "proceedWithGoogle": "Proceed with Google",
+    "signInWithGoogle": "Google",
+    "notUser": "Nicht {{userName}}?"
+}

@@ -1,0 +1,16 @@
+{
+    "header": "Books",
+    "create": "Create masterpiece",
+    "creating": "Creating masterpiece",
+    "name": "Masterpiece name",
+    "description": "Description",
+    "descriptionHelp": "Short one. You can change it later.",
+    "coverUrl": "Cover URL",
+    "coverUrlHelp": "Not required. You can upload it later.",
+    "createButton": "Create",
+    "newBookErrorHeader": "Error",
+    "newBookErrorHelp": "Try again in a little while.",
+    "networkError": "Please check your network connection.",
+    "nameFieldRequired": "Field \"Name\" is required.",
+    "required": "This field is required."
+}

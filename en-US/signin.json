@@ -1,0 +1,11 @@
+{
+    "title": "Sign in",
+    "slogan": "Writex.io is an editor with super powers. It gives writers around the world extreme possibilities and outstanding customized writing experience.",
+    "linkFacebook": "Link Facebook",
+    "proceedWithFacebook": "Proceed wth Facebook",
+    "signInWithFacebook": "Facebook",
+    "linkGoogle": "Link Google",
+    "proceedWithGoogle": "Proceed with Google",
+    "signInWithGoogle": "Google",
+    "notUser": "Not {{userName}}?"
+}
