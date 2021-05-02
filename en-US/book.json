@@ -2,5 +2,222 @@
     "loading": "Loading your masterpiece.",
 
     "error": "Error",
-    "Network Error": "Possibly problems with network connection. Offline work is not supported for now."
+    "Network Error": "Possibly problems with network connection. Offline work is not supported for now.",
+
+    "errors": {
+        "blocks": {
+            "title": {
+                "creation": "Text was not created",
+                "deletion": "Text was not deleted",
+                "imageUpload": "Image was not uploaded"
+            },
+            "description": {
+                "Network Error": "Possibly problems with network connection. Offline work is not supported for now.",
+                "creation": "Possible problem in the application. Please describe your problem to the Support.",
+                "deletion": "Possible error on the server. Please describe your problem to the Support.",
+                "imageUpload": "An image should be jpeg or png, and also less then 3Mb."
+            },
+            "support": {
+                "creation": {
+                    "title": "Error while creating the text block",
+                    "text": "Possible software error. When I clicked on the add text block button, an error message appeared. [Please describe in detail what you did before that!]"
+                },
+                "deletion": {
+                    "title": "Error while deleting the text block",
+                    "text": "Possible server error. When I tried to delete the text block, an error message appeared. [Please describe in detail what you did before that!]"
+                },
+                "imageUpload": {
+                    "title": "An error while uploading an image",
+                    "text": "Possible server error. An error appeared while uploading an image. [Please describe an image extension, it's size and steps that led you there!]"
+                }
+            }
+        },
+        "wikis": {
+            "title": {
+                "creation": "Wiki was not created",
+                "saving": "Wiki was not saved",
+                "deletion": "Wiki was not deleted"
+            },
+            "description": {
+                "Network Error": "Possibly problems with network connection. Offline work is not supported for now.",
+                "creation": "Possible problem in the application. Please describe your problem to the Support.",
+                "saving": "Possible error on the server. Please describe your problem to the Support.",
+                "deletion": "Possible error on the server. Please describe your problem to the Support."
+            },
+            "support": {
+                "creation": {
+                    "title": "Error while creating a Wiki",
+                    "text": "Possible software error. When I clicked on the create Wiki button, an error message appeared. [Please describe in detail what you did before that!]"
+                },
+                "saving": {
+                    "title": "Error while saving the Wiki",
+                    "text": "Possible software error. While changing and saving the Wiki an error message appeared. [Please describe in detail what you did before that!]"
+                },
+                "deletion": {
+                    "title": "Error while deleting the Wiki",
+                    "text": "Possible server error. When I tried to delete the Wiki, an error message appeared. [Please describe in detail what you did before that!]"
+                }
+            }
+        },
+        "images": {
+            "title": {
+                "deletion": "Image was not deleted"
+            },
+            "description": {
+                "deletion": "We made a mistake and something went wrong. We really apologise for that! Please try to delete in a while or contact Support. We will try to fix it as soon as possible."
+            },
+            "support": {
+                "deletion": {
+                    "title": "Error while deleting an image",
+                    "text": "Possible mistake on the server. After clicking \"Delete and image\" the error notification appeared. [Please describe your previous actions as much as you can!]"
+                }
+            }
+        },
+
+        "contactSupport": "Contact Support"
+    },
+
+    "steps": {
+        "error": {
+            "initializingHeader": "Error",
+            "initializingDescription": "Structure creation is not finished. Write to support@writex.com try in a while."
+        },
+        "spine": {
+            "stepTitle": "Spine",
+            "header": "Will you use Spine?",
+            "text": {
+                "paragraph1": "There are a lot of techniques, helping in creation story structure, like original <0>technique \"Story Spine\"</0>.",
+                "paragraph2": "In general all stories has the same <0>Story Lifecycle</0>. You can create each of Lifecycle Steps (or be more granular, add Chapters instead of Lifecycle Steps or anything else that will work for you) and later add text and details, using the Spine."
+            },
+            "buttonNo": "Skip, without Spine",
+            "buttonYes": "Yes, create first Spine step",
+            "buttonCancelCreateSpine": "Back",
+            "buttonCreateSpine": "Next step",
+
+            "creating": {
+                "nameInputLabel": "Enter first Spine Item name here",
+                "nameInputDescription": "You can add just several Spine Items. the rest you can add later.",
+                "nameInputPlaceholder": "For example, \"Once upon a time\" or \"Chapter 1. Protagonist born.\"",
+
+                "interfaceExample": "In the interface it will look like this",
+                "interfaceExampleSpine": "Spine",
+                "interfaceExampleSpineItem1": "Other Spine Item",
+                "interfaceExampleSpineItem2": "And Another One",
+                "interfaceExampleDraftText": "Draft text",
+                "interfaceExampleFinalText": "Final Text"
+            }
+        },
+        "text": {
+            "stepTitle": "Text",
+            "header": "Create Text versions",
+            "text": {
+                "paragraph1": "You can create one or several text versions. You can add more versions later.",
+                "paragraph2": "<0>Main idea</0>. With each new Text Version you add details, copy and rewrite some parts or your previous Text Versions. After some iterations you will be reaching to the final version of your text."
+            },
+            "buttonCreate": "Next step",
+            "buttonBack": "Back",
+            "creating": {
+                "nameInputPlaceholder": "For example, \"Draft\", \"For publisher\" или \"Final version\""
+            }
+        },
+        "wiki": {
+            "stepTitle": "Wiki",
+            "header": "Create Wikipedia for your Story",
+            "text": {
+                "paragraph1": "Create Wiki Section (or Knowledge Base) helps to collect information you need to create holistic history.",
+                "paragraph3": "<1>Advice</1>. Don't store all information in one Wiki Section. Catalog information, create different Wiki Sections for different types of information or it's granularity.",
+                "paragraph4": "<1>Example</1>. Separate Wiki Section for <0>Main Characters</0>, separate for <0>Secondary</0>. If you have world descriptions, you can create Wiki <0>Global Geography</0>. If you have places in City X, then Wiki Section <0>City X</0>, and so on.",
+                "paragraph5": "No need to create everything now. You can create new Wiki Section at <0>any moment</0>."
+            },
+            "buttonNo": "Skip, create later",
+            "buttonYes": "Yes, create Wiki Sections",
+
+            "creating": {
+                "nameInputHeader": "Create name for Wiki Sections",
+                "nameInputPlaceholder": "Per example, \"Main Characters\" или \"World Geography\""
+            },
+            "buttonBack": "Back",
+            "buttonCreate": "Next step"
+        },
+        "finish": {
+            "stepTitle": "Finalize",
+            "buttonBack": "Back",
+            "buttonCreate": "Create initial structure"
+        }
+    },
+
+    "editor" : {
+        "placeholder": "Start to write here...",
+        "emptyBlocks": "Add text block or image by clicking on buttons below",
+        "emptyWikis": "Add a new Wiki by clicking on button below."
+    },
+
+    "wikis": {
+        "mainName": {
+            "placeholder": "Wiki name"
+        },
+        "names": {
+            "empty": "Add alternative names, which occur in texts."
+        },
+        "add": "New Wiki",
+        "remove": "Again to confirm"
+    },
+
+    "spine": {
+        "name": {
+            "placeholder": "Spine name"
+        },
+        "add": "New Spine"
+    },
+
+    "verticals": {
+        "management": {
+            "sortDivider": "Drag to change order",
+            "newDivider": "New Vertical",
+            "newHeader": "Enter name, choose type and click Create.",
+            "newName": "Vertical Name",
+            "create": "Create",
+            "type": {
+                "bond": "Text Version",
+                "bondDescription": "If you need to rewrite or change text, but don't want to delete an old version. Examples: Draft, Final, For Publisher.",
+                "wiki": "Wiki",
+                "wikiDescription": "If you want to supplement the knowledge base, but want to have more precise categorisation. Examples: Antagonists, Cities, Places in City X."
+            }
+        }
+    },
+
+    "config": {
+        "vertical": {
+            "names": {
+                "spine": "Spine"
+            },
+            "modesAndBehaviour": "Modes of the vertical",
+            "scrollSync": {
+                "label": "Scroll sync",
+                "description": "If active, then scroll will by synced with other text versions",
+                "toggle": {
+                    "synced": "synced",
+                    "notSynced": "not synced"
+                }
+            },
+            "moveMode": {
+                "label": "Move mode",
+                "description": "If active, you can use your cursor to drag and sort your text blocks",
+                "symbolsQuantity": "Symbols quantity shown in the text block"
+            }
+        },
+        "wikis": {
+            "markOptions": "Mark options",
+            "exclude": {
+                "label": "Don't mark",
+                "description": "do not include Wiki in the search and don't mark in texts"
+            },
+            "search": {
+                "fullMatch": "Absolute match in text.",
+                "notFullMatch": "Misspells allowed.",
+                "fuzzy": "More fuzziness.",
+                "crazy": "Inaccurate madness."
+            }
+        }
+    }
 }

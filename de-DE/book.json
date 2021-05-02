@@ -2,5 +2,222 @@
     "loading": "Laden Sie Ihr Meisterwerk.",
 
     "error": "Error",
-    "Network Error": "Möglicherweise Probleme mit der Netzwerkverbindung. Offline-Arbeit wird derzeit nicht unterstützt."
+    "Network Error": "Möglicherweise Probleme mit der Netzwerkverbindung. Offline-Arbeit wird derzeit nicht unterstützt.",
+
+    "errors": {
+        "blocks": {
+            "title": {
+                "creation": "Text wurde nicht erstellt",
+                "deletion": "Text wurde nicht gelöscht",
+                "imageUpload": "Bild wurde nicht hochgeladen"
+            },
+            "description": {
+                "Network Error": "Möglicherweise Probleme mit der Netzwerkverbindung. Offline-Arbeit wird derzeit nicht unterstützt.",
+                "creation": "Mögliches Problem in der Anwendung. Bitte beschreiben Sie Ihr Problem dem Support.",
+                "deletion": "Möglicher Fehler auf dem Server. Bitte beschreiben Sie Ihr Problem dem Support.",
+                "imageUpload": "Ein Bild sollte JPEG oder PNG sein und auch weniger als 3 MB."
+            },
+            "support": {
+                "creation": {
+                    "title": "Fehler beim Erstellen des Textblocks",
+                    "text": "Möglicher Softwarefehler. Als ich auf die Schaltfläche Textblock hinzufügen klickte, wurde eine Fehlermeldung angezeigt. [Bitte beschreiben Sie ausführlich, was Sie zuvor getan haben!]"
+                },
+                "deletion": {
+                    "title": "Fehler beim Löschen des Textblocks",
+                    "text": "Möglicher Serverfehler. Als ich versuchte, den Textblock zu löschen, wurde eine Fehlermeldung angezeigt. [Bitte beschreiben Sie ausführlich, was Sie zuvor getan haben!]"
+                },
+                "imageUpload": {
+                    "title": "Ein Fehler beim Hochladen eines Bildes",
+                    "text": "Möglicher Serverfehler. Beim Hochladen eines Bildes ist ein Fehler aufgetreten. [Bitte beschreiben Sie eine Bilderweiterung, deren Größe und Schritte Sie dorthin geführt haben!]"
+                }
+            }
+        },
+        "wikis": {
+            "title": {
+                "creation": "Wiki wurde nicht erstellt",
+                "saving": "Wiki wurde nicht gespeichert",
+                "deletion": "Wiki wurde nicht gelöscht"
+            },
+            "description": {
+                "Network Error": "Möglicherweise Probleme mit der Netzwerkverbindung. Offline-Arbeit wird derzeit nicht unterstützt.",
+                "creation": "Mögliches Problem in der Anwendung. Bitte beschreiben Sie Ihr Problem dem Support.",
+                "saving": "Möglicher Fehler auf dem Server. Bitte beschreiben Sie Ihr Problem dem Support.",
+                "deletion": "Möglicher Fehler auf dem Server. Bitte beschreiben Sie Ihr Problem dem Support."
+            },
+            "support": {
+                "creation": {
+                    "title": "Fehler beim Erstellen eines Wikis",
+                    "text": "Möglicher Softwarefehler. Als ich auf die Schaltfläche Wiki erstellen geklickt habe, wurde eine Fehlermeldung angezeigt. [Bitte beschreiben Sie ausführlich, was Sie zuvor getan haben!]"
+                },
+                "saving": {
+                    "title": "Fehler beim Speichern des Wikis",
+                    "text": "Möglicher Softwarefehler. Beim Ändern und Speichern des Wikis wurde eine Fehlermeldung angezeigt. [Bitte beschreiben Sie ausführlich, was Sie zuvor getan haben!]"
+                },
+                "deletion": {
+                    "title": "Fehler beim Löschen des Wikis",
+                    "text": "Möglicher Serverfehler. Als ich versuchte, das Wiki zu löschen, wurde eine Fehlermeldung angezeigt. [Bitte beschreiben Sie ausführlich, was Sie zuvor getan haben!]"
+                }
+            }
+        },
+        "images": {
+            "title": {
+                "deletion": "Bild wurde nicht gelöscht"
+            },
+            "description": {
+                "deletion": "Wir haben einen Fehler gemacht und etwas ist schief gelaufen. Wir entschuldigen uns wirklich dafür! Bitte versuchen Sie es nach einer Weile zu löschen oder wenden Sie sich an den Support. Wir werden versuchen, das Problem so schnell wie möglich zu beheben."
+            },
+            "support": {
+                "deletion": {
+                    "title": "Fehler beim Löschen eines Bildes",
+                    "text": "Möglicher Fehler auf dem Server. Nach dem Klicken auf \"Löschen und Bild\" wurde die Fehlerbenachrichtigung angezeigt. [Bitte beschreiben Sie Ihre bisherigen Aktionen so gut Sie können!]"
+                }
+            }
+        },
+
+        "contactSupport": "Support kontaktieren"
+    },
+
+    "steps": {
+        "error": {
+            "initializingHeader": "Error",
+            "initializingDescription": "Die Strukturerstellung ist noch nicht abgeschlossen. Schreiben Sie an support@writex.com und versuchen Sie es in einer Weile."
+        },
+        "spine": {
+            "stepTitle": "Rückgrat",
+            "header": "Wirst du Rückgrat benutzen?",
+            "text": {
+                "paragraph1": "Es gibt viele Techniken, die bei der Erstellung der Story-Struktur helfen, wie die ursprüngliche <0>Technik \"Story Spine\"</0>.",
+                "paragraph2": "Im Allgemeinen haben alle Storys den gleichen <0>Story-Lebenszyklus</0>. Sie können jeden der Lebenszyklusschritte erstellen (oder detaillierter sein, Kapitel anstelle von Lebenszyklusschritten oder anderen für Sie geeigneten Elementen hinzufügen) und später mithilfe des Buchrückens Text und Details hinzufügen."
+            },
+            "buttonNo": "Nein, ohne Rückgrat",
+            "buttonYes": "Ja, erstellen Sie den ersten Wirbelsäulenschritt",
+            "buttonCancelCreateSpine": "Zurück",
+            "buttonCreateSpine": "Nächster Schritt",
+
+            "creating": {
+                "nameInputLabel": "Geben Sie hier den ersten Namen des Wirbelsäulenartikels ein.",
+                "nameInputDescription": "Sie können nur mehrere Wirbelsäulenelemente hinzufügen. den Rest können Sie später hinzufügen.",
+                "nameInputPlaceholder": "Zum Beispiel \"Es war einmal\" oder \"Kapitel 1. Protagonist geboren\".",
+
+                "interfaceExample": "In der Oberfläche sieht es so aus",
+                "interfaceExampleSpine": "Rückgrat",
+                "interfaceExampleSpineItem1": "Anderer Wirbelsäulengegenstand",
+                "interfaceExampleSpineItem2": "Und noch einer",
+                "interfaceExampleDraftText": "Textentwurf",
+                "interfaceExampleFinalText": "Endgültiger Text"
+            }
+        },
+        "text": {
+            "stepTitle": "Text",
+            "header": "Erstellen Sie Textversionen",
+            "text": {
+                "paragraph1": "Sie können eine oder mehrere Textversionen erstellen. Sie können später weitere Versionen hinzufügen.",
+                "paragraph2": "<0>Hauptidee</0>. Mit jeder neuen Textversion fügen Sie Details hinzu, kopieren einige Teile oder Ihre vorherigen Textversionen und schreiben sie neu. Nach einigen Iterationen befinden Sie sich in der Nähe der endgültigen Version Ihres Textes."
+            },
+            "buttonCreate": "Nächster Schritt",
+            "buttonBack": "Zurück",
+            "creating": {
+                "nameInputPlaceholder": "Zum Beispiel \"Entwurf\", \"Für Herausgeber\" oder \"Endversion\""
+            }
+        },
+        "wiki": {
+            "stepTitle": "Wiki",
+            "header": "Erstellen Sie Wikipedia für Ihre Geschichte",
+            "text": {
+                "paragraph1": "Mit dem Abschnitt \"Wiki erstellen\" (oder Knowledge Base) können Sie Informationen sammeln, die Sie zum Erstellen eines ganzheitlichen Verlaufs benötigen.",
+                "paragraph3": "<1>Ratschläge</1>. Speichern Sie nicht alle Informationen in einem Wiki-Bereich. Kataloginformationen, erstellen Sie verschiedene Wiki-Abschnitte für verschiedene Arten von Informationen oder deren Granularität.",
+                "paragraph4": "<1>Beispiel</1>. Separater Wiki-Bereich für <0>Hauptcharaktere</0>, separater für <0>Sekundär</0>. Wenn Sie Weltbeschreibungen haben, können Sie das Wiki <0>Global Geography</0> erstellen. Wenn Sie Orte in Stadt X haben, dann Wiki-Abschnitt <0>Stadt X</0> und so weiter.",
+                "paragraph5": "Sie müssen jetzt nicht alles erstellen. Sie können jederzeit <0>einen neuen Wiki-Bereich erstellen</0>."
+            },
+            "buttonNo": "Überspringen, später erstellen",
+            "buttonYes": "Ja, erstellen Sie Wiki-Abschnitte",
+
+            "creating": {
+                "nameInputHeader": "Erstellen Sie einen Namen für Wiki-Abschnitte",
+                "nameInputPlaceholder": "Zum Beispiel \"Hauptfiguren\" или \"Weltgeographie\""
+            },
+            "buttonBack": "Zurück",
+            "buttonCreate": "Nächster Schritt"
+        },
+        "finish": {
+            "stepTitle": "Finalisieren",
+            "buttonBack": "Zurück",
+            "buttonCreate": "Erststruktur erstellen"
+        }
+    },
+
+    "editor" : {
+        "placeholder": "Fangen Sie an hier zu schreiben...",
+        "emptyBlocks": "Fügen Sie einen Textblock oder ein Bild hinzu, indem Sie auf die Schaltflächen unten klicken",
+        "emptyWikis": "Fügen Sie ein neues Wiki hinzu, indem Sie auf die Schaltfläche unten klicken"
+    },
+
+    "wikis": {
+        "mainName": {
+            "placeholder": "Wiki-Name"
+        },
+        "names": {
+            "empty": "Fügen Sie alternative Namen hinzu, die in Texten vorkommen."
+        },
+        "add": "Neues Wiki",
+        "remove": "Nochmals zur Bestätigung"
+    },
+
+    "spine": {
+        "name": {
+            "placeholder": "Wirbelsäulenname"
+        },
+        "add": "Neue Wirbelsäule"
+    },
+
+    "verticals": {
+        "management": {
+            "sortDivider": "Ziehen Sie, um die Reihenfolge zu ändern",
+            "newDivider": "Neue Vertikale",
+            "newHeader": "Geben Sie den Namen ein, wählen Sie den Typ und klicken Sie auf Erstellen.",
+            "newName": "Vertikaler Name",
+            "create": "Erstellen",
+            "type": {
+                "bond": "Textversion",
+                "bondDescription": "Wenn Sie Text neu schreiben oder ändern müssen, aber keine alte Version löschen möchten. Beispiele: Entwurf, endgültig, für Verlag.",
+                "wiki": "Wiki",
+                "wikiDescription": "Wenn Sie die Wissensbasis ergänzen möchten, aber eine genauere Kategorisierung wünschen. Beispiele: Antagonisten, Städte, Orte in Stadt X."
+            }
+        }
+    },
+
+    "config": {
+        "vertical": {
+            "names": {
+                "spine": "Rückgrat"
+            },
+            "modesAndBehaviour": "Modi der Vertikalen",
+            "scrollSync": {
+                "label": "Bildlaufsynchronisierung",
+                "description": "Wenn aktiv, wird der Bildlauf mit anderen Textversionen synchronisiert",
+                "toggle": {
+                    "synced": "synchronisiert",
+                    "notSynced": "nicht synchronisiert"
+                }
+            },
+            "moveMode": {
+                "label": "Bewegungsmodus",
+                "description": "Wenn aktiv, können Sie Ihre Textblöcke mit dem Cursor ziehen und sortieren",
+                "symbolsQuantity": "Symbolmenge wird im Textblock angezeigt"
+            }
+        },
+        "wikis": {
+            "markOptions": "Optionen markieren",
+            "exclude": {
+                "label": "Nicht markieren",
+                "description": "Nehmen Sie das Wiki nicht in die Suche auf und markieren Sie es nicht in Texten"
+            },
+            "search": {
+                "fullMatch": "Absolute Übereinstimmung im Text.",
+                "notFullMatch": "Rechtschreibfehler erlaubt.",
+                "fuzzy": "Mehr Unschärfe.",
+                "crazy": "Ungenauer Wahnsinn."
+            }
+        }
+    }
 }
