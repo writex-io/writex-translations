@@ -1,5 +1,6 @@
 {
     "loading": "Loading your masterpiece.",
+    "loadingAnalysis": "Text analysis.",
 
     "error": "Error",
     "Network Error": "Possibly problems with network connection. Offline work is not supported for now.",
@@ -160,7 +161,9 @@
             "empty": "Add alternative names, which occur in texts."
         },
         "add": "New Wiki",
-        "remove": "Again to confirm"
+        "remove": "Again to confirm",
+        "openInModal": "Open in modal",
+        "openVertical": "Open vertical"
     },
 
     "spine": {
@@ -191,6 +194,7 @@
             "names": {
                 "spine": "Spine"
             },
+            "exports": "Export vertical",
             "modesAndBehaviour": "Modes of the vertical",
             "scrollSync": {
                 "label": "Scroll sync",
@@ -204,6 +208,25 @@
                 "label": "Move mode",
                 "description": "If active, you can use your cursor to drag and sort your text blocks",
                 "symbolsQuantity": "Symbols quantity shown in the text block"
+            },
+            "analysis": "Analysis",
+            "markWikis": {
+                "label": "Mark Wikis",
+                "description": "If active, all entries of Wikis will be marked in text; use ⌘ + click to open the Wiki."
+            },
+            "spellCheck": {
+                "label": "Spell check",
+                "description": "If active, potential mistakes will be marked in the text; move text cursor on it to open description.",
+                "languagePlaceholder": "Language to check"
+            },
+            "ageReadability": {
+                "label": "Readability for age ",
+                "description": "If active, if text is hard readable, it will be marked with gradient from light to dark red.",
+                "mark": "y.o."
+            },
+            "statistics": {
+                "label": "Show statistics ",
+                "formatPlaceholder": "Format"
             }
         },
         "wikis": {
@@ -217,6 +240,65 @@
                 "notFullMatch": "Misspells allowed.",
                 "fuzzy": "More fuzziness.",
                 "crazy": "Inaccurate madness."
+            }
+        }
+    },
+
+    "spellcheck": {
+        "types": {
+            "typographical": "Typographical error",
+            "possible typo": "Possible typo",
+            "locale-violation": "Locale violation",
+            "inconsistency": "Inconsistency",
+            "punctuation": "Punctuation",
+            "grammar": "Grammatical error",
+            "style": "Stylistic error",
+            "redundant phrases": "Redundant phrase",
+            "misspelling": "Misspelling",
+            "whitespace": "Whitespace",
+            "duplication": "Duplication"
+        }
+    },
+
+    "statistics": {
+        "pages": "pages",
+        "sentences": "sentences",
+        "words": "words",
+        "letters": "letters"
+    },
+
+    "integrations": {
+        "medium": {
+            "generalInfo": "To export this vertical we need Medium <0>integration token</0>.",
+            "officialInfo": "This is an <0>official way</0> of integration with Medium.",
+            "guideInfo": "We'll guide you through.",
+
+            "integrationSteps": {
+                "1": "Open your <0>Medium profile</0>.",
+                "2": "Choose <0>Integration tokens</0> in the menu on the left.",
+                "3": "Press the button <0>Get generated token</0>.",
+                "4": "Copy <0>generated token</0> and paste it in the field below.",
+                "5": "Press <0>Integrate</0> button."
+            },
+
+            "linkButton": "Integrate",
+            "exportButton": "Export",
+            "cancelLinkButton": "Cancel integration",
+            "cancelExportButton": "Cancel export",
+
+            "linked": "It's done",
+            "linkingComplete": "Integration with Medium was successful",
+            "linkError": "Something went wrong. Please make sure that you've copied all symbols of integration token and start with <0>step 4</0>. If it didn't help then try to generate a new token (<0>step 3</0>).",
+
+            "export": {
+                "articleName": "Article name",
+                "error": "Something went wrong. Please make sure that you've entered correct article name. If error will occur, please notify our <0>tech support</0>.",
+                "support": {
+                    "title": "Error during export."
+                },
+                "success": "Article <0></0> successfully exported.",
+                "visitButton": "Visit on Medium",
+                "doneButton": "Done"
             }
         }
     }

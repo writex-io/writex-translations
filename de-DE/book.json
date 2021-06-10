@@ -1,5 +1,6 @@
 {
     "loading": "Laden Sie Ihr Meisterwerk.",
+    "loadingAnalysis": "Textanalyse.",
 
     "error": "Error",
     "Network Error": "Möglicherweise Probleme mit der Netzwerkverbindung. Offline-Arbeit wird derzeit nicht unterstützt.",
@@ -160,7 +161,9 @@
             "empty": "Fügen Sie alternative Namen hinzu, die in Texten vorkommen."
         },
         "add": "Neues Wiki",
-        "remove": "Nochmals zur Bestätigung"
+        "remove": "Nochmals zur Bestätigung",
+        "openInModal": "Modal öffnen",
+        "openVertical": "Vertikal öffnen"
     },
 
     "spine": {
@@ -191,6 +194,7 @@
             "names": {
                 "spine": "Rückgrat"
             },
+            "exports": "Vertikal exportieren",
             "modesAndBehaviour": "Modi der Vertikalen",
             "scrollSync": {
                 "label": "Bildlaufsynchronisierung",
@@ -204,6 +208,25 @@
                 "label": "Bewegungsmodus",
                 "description": "Wenn aktiv, können Sie Ihre Textblöcke mit dem Cursor ziehen und sortieren",
                 "symbolsQuantity": "Symbolmenge wird im Textblock angezeigt"
+            },
+            "analysis": "Analyse",
+            "markWikis": {
+                "label": "Mark Wikis",
+                "description": "Wenn aktiv, werden alle Einträge von Wikis im Text markiert. Verwenden Sie ⌘ + Klicken, um das Wiki zu öffnen."
+            },
+            "spellCheck": {
+                "label": "Rechtschreibprüfung",
+                "description": "Wenn aktiv, werden mögliche Fehler im Text markiert. Bewegen Sie den Textcursor darauf, um die Beschreibung zu öffnen.",
+                "languagePlaceholder": "Zu überprüfende Sprache"
+            },
+            "ageReadability": {
+                "label": "Lesbarkeit für das Alter ",
+                "description": "Wenn aktiv, wird Text, der schwer lesbar ist, mit einem Farbverlauf von hell- nach dunkelrot markiert.",
+                "mark": "Jahre alt"
+            },
+            "statistics": {
+                "label": "Zeige Statistiken ",
+                "formatPlaceholder": "Format"
             }
         },
         "wikis": {
@@ -217,6 +240,65 @@
                 "notFullMatch": "Rechtschreibfehler erlaubt.",
                 "fuzzy": "Mehr Unschärfe.",
                 "crazy": "Ungenauer Wahnsinn."
+            }
+        }
+    },
+
+    "spellcheck": {
+        "types": {
+            "typographical": "Rechtschreibfehler",
+            "possible typo": "Möglicher Tippfehler",
+            "locale-violation": "Gebietsschemaverletzung",
+            "inconsistency": "Inkonsistenz",
+            "punctuation": "punctuation",
+            "grammar": "Grammatikalischer Fehler",
+            "style": "Stilfehler",
+            "redundant phrases": "Redundante Phrase",
+            "misspelling": "Rechtschreibfehler",
+            "whitespace": "Leerzeichen",
+            "duplication": "Vervielfältigung"
+        }
+    },
+
+    "statistics": {
+        "pages": "Seiten",
+        "sentences": "Sätze",
+        "words": "Wörter",
+        "letters": "Briefe"
+    },
+
+    "integrations": {
+        "medium": {
+            "generalInfo": "Um diese Branche zu exportieren, benötigen wir ein mittleres <0>Integrationstoken</0>.",
+            "officialInfo": "Dies ist eine <0>offizielle Methode</0> der Integration mit Medium.",
+            "guideInfo": "Wir führen Sie durch.",
+
+            "integrationSteps": {
+                "1": "Öffnen Sie Ihr <0>Medium-Profil</0>.",
+                "2": "Wählen Sie im Menü auf der linken Seite <0>Integrationstoken</0>.",
+                "3": "Drücken Sie die Schaltfläche <0>Generierten Token abrufen</0>.",
+                "4": "Kopieren Sie das <0>generierte Token</0> und fügen Sie es in das Feld unten ein.",
+                "5": "Drücken Sie die Schaltfläche <0>Integrieren</0>."
+            },
+
+            "linkButton": "Integrieren",
+            "exportButton": "Export",
+            "cancelLinkButton": "Integration abbrechen",
+            "cancelExportButton": "Abbrechen",
+
+            "linked": "Getan",
+            "linkingComplete": "Die Integration mit Medium war erfolgreich",
+            "linkError": "Etwas ist schief gelaufen. Bitte stellen Sie sicher, dass Sie alle Symbole des Integrationstokens kopiert haben und beginnen Sie mit <0>Schritt 4</0>. Wenn es nicht geholfen hat, versuchen Sie, ein neues Token zu generieren (<0>Schritt 3</0>).",
+
+            "export": {
+                "articleName": "Artikelname",
+                "error": "Etwas ist schief gelaufen. Bitte stellen Sie sicher, dass Sie den richtigen Artikelnamen eingegeben haben. Wenn ein Fehler auftritt, benachrichtigen Sie bitte unseren <0>technischen Support</0>.",
+                "support": {
+                    "title": "Fehler beim Export."
+                },
+                "success": "Artikel <0></0> erfolgreich exportiert.",
+                "visitButton": "Besuch auf Medium",
+                "doneButton": "Getan"
             }
         }
     }
