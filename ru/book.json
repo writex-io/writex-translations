@@ -1,4 +1,6 @@
 {
+    "pageTitle": " | Writex.io",
+
     "loading": "Загрузка шедевра.",
     "loadingAnalysis": "Анализ текста.",
 
@@ -190,6 +192,13 @@
     },
 
     "config": {
+        "book": {
+            "mainSection": "Основные",
+            "name": "Наименование книги или статьи",
+            "description": "Краткое описание",
+            "cover": "Обложка",
+            "closeSettingsButton": "Закрыть настройки"
+        },
         "vertical": {
             "names": {
                 "spine": "Основа"

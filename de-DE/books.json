@@ -1,5 +1,6 @@
 {
-    "header": "Bücher",
+    "pageTitle": "Bücher & Artikel | Writex.io",
+    "header": "Bücher & Artikel",
     "create": "Meisterwerk schaffen",
     "creating": "Wir schaffen ein Meisterwerk",
     "name": "Name des Meisterwerks",
@@ -12,5 +13,13 @@
     "newBookErrorHelp": "Versuchen Sie es in Kürze erneut.",
     "networkError": "Bitte überprüfen Sie Ihr Netzwerk.",
     "nameFieldRequired": "Feld \"Name\" ist erforderlich.",
-    "required": "Dieses Feld ist erforderlich."
+    "required": "Dieses Feld ist erforderlich.",
+    "error": {
+        "load": {
+            "title": "Wir konnten Ihre Werke nicht laden!",
+            "subtitle": "Wir entschuldigen uns wirklich! Bitte versuchen Sie, die Seite zu aktualisieren.",
+            "description": "Wenn es nicht funktioniert, versuchen Sie es in einer Weile erneut.",
+            "reloadButton": "Neu laden"
+        }
+    }
 }

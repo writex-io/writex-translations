@@ -1,0 +1,81 @@
+{
+    "pageTitle": "Konto | Writex.io",
+
+    "header": {
+        "account": "Konto & Profil",
+        "profile": "Profil",
+        "integrations": "Integrationen",
+        "security": "Sicherheit"
+    },
+    "menu": {
+        "account": "Konto",
+        "profile": "Profil",
+        "paymentsBills": "Zahlungen",
+        "integrations": "Integrationen",
+        "accountSecurity": "Sicherheit"
+    },
+    "settings": {
+        "fullName": "Vollständiger Name",
+        "fullNameHelp": "Jederzeit ändern oder löschen.",
+        "bio": "Bio",
+        "bioHelp": "Wird für andere Mitglieder offen sein, wenn die Sharing-Funktionalität implementiert wird.",
+        "save": "Speichern",
+        "saved": "Gerettet",
+        "dangerZone": "Gefahrenzone",
+        "deleteAccountHeader": "Konto löschen",
+        "deleteAccountInfo": "Achtung! Alle von Ihnen erstellten Daten werden gelöscht und können nicht wiederhergestellt werden."
+    },
+    "integrations": {
+        "medium": {
+            "header": "Mittlere Integration",
+
+            "integrationSteps": {
+                "1": "Öffnen Sie Ihr <0>Medium-Profil</0>.",
+                "2": "Wählen Sie im Menü auf der linken Seite <0>Integrationstoken</0>.",
+                "3": "Drücken Sie die Schaltfläche <0>Generierten Token abrufen</0>.",
+                "4": "Kopieren Sie das <0>generierte Token</0> und fügen Sie es in das Feld unten ein.",
+                "5": "Drücken Sie die Schaltfläche <0>Integrieren</0>."
+            },
+
+            "linkButton": "Integrieren",
+            "cancelLinkButton": "Integration abbrechen",
+            "linked": "Getan",
+            "linkingComplete": "Die Integration mit Medium war erfolgreich",
+            "linkError": "Etwas ist schief gelaufen. Bitte stellen Sie sicher, dass Sie alle Symbole des Integrationstokens kopiert haben und beginnen Sie mit <0>Schritt 4</0>. Wenn es nicht geholfen hat, versuchen Sie, ein neues Token zu generieren (<0>Schritt 3</0>).",
+
+            "existingIntegration": "Sie haben eine Integration mit Medium. Sie können <0> ganze Branchen als Artikel</0> in Ihr Medium-Konto exportieren.",
+            "removeExistingIntegration": "Vorhandene Integration entfernen",
+            "removeExistingIntegrationConfirmation": "Klicken Sie erneut, um zu bestätigen",
+
+            "errors": {
+                "delete": {
+                    "common": "Beim Löschen der Medium-Integration ist ein Fehler aufgetreten. Wenn das wieder passiert, schreiben Sie bitte an den <0>Support</0>.",
+                    "support": {
+                        "title": "Löschen der Medienintegration",
+                        "text": "Beim Löschen der Medium-Integration ist ein Fehler aufgetreten. [Bitte beschreiben Sie Ihre Schritte mit weiteren Details]"
+                    }
+                }
+            }
+        }
+    },
+
+    "security": {
+        "title": "Login und Sicherheit",
+        "signin": {
+            "description": "Hier finden Sie Ihre Social Logins (<0>Sie benötigen mindestens einen</0>).",
+            "google": {
+                "clickToConfirm": "Nochmal zur Bestätigung",
+                "unlink": "Verknüpfung mit Google aufheben",
+                "link": "Google-Link"
+            },
+            "facebook": {
+                "clickToConfirm": "Nochmal zur Bestätigung",
+                "unlink": "Verknüpfung mit Facebook aufheben",
+                "link": "Facebook-Link"
+            },
+            "errors": {
+                "You should have at least one provider": "Sie benötigen mehrere Social Login-Anbieter, um die Verknüpfung eines von ihnen aufheben zu können. Andernfalls können Sie sich nicht in Ihr Konto einloggen."
+            }
+        }
+    }
+}

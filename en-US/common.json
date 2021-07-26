@@ -3,5 +3,6 @@
     "books": "Books",
     "account": "Account",
     "logout": "Logout",
-    "clickAgainToDelete": "Click again to delete"
+    "clickAgainToDelete": "Click again to delete",
+    "userError": "Couldn't load information about you. Please, try to refresh the page."
 }

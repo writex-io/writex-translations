@@ -1,0 +1,62 @@
+{
+    "tooltip": {
+        "Next": "Next",
+        "Back": "Back",
+        "Last": "Done",
+        "Close": "Close"
+    },
+    "book": {
+        "header": {
+            "settings": {
+                "title": "Book settings",
+                "description": "If you want to change name or cover you should check this out."
+            },
+            "verticalsManagement": {
+                "title": "Verticals management",
+                "description": "To create new text versions, new Wiki Sections or rearrange your existing verticals you'll need to go here."
+            }
+        },
+        "verticals": {
+            "config": {
+                "title": "Vertical configuration",
+                "description": "Specific to this concrete vertical. You can enable different modes or analysis for this exact vertical, like spellcheck, readability, enable Wiki Marks. Or turn on Move Mode or Scroll Sync."
+            },
+            "sizeHandle": {
+                "title": "Size handle",
+                "description": "Drag this handle to resize verticals."
+            }
+        },
+        "application": {
+            "tours": {
+                "title": "Help tours",
+                "description": "If you want to enable this or another tour again, go to the Main Menu –> Account –> Help Tours and check the tour that you are interested in."
+            }
+        },
+        "noSpine": {
+            "addContainer": {
+                "title": "Add blocks",
+                "description": "Split your text into logical blocks (it's easier to move and sort blocks after), add illustrations and comment blocks (comment blocks will be ignored while exporting)."
+            }
+        },
+        "withSpine": {
+            "addSpine": {
+                "title": "Add Spine",
+                "description": "Spine will be visible in all versions of your texts (per example Spine can be a Chapter). It will help to keep the structure of your text, no matter which version you're working on."
+            },
+            "addContainer": {
+                "title": "Add blocks",
+                "description": "Split your text into logical blocks (it's easier to move and sort blocks after), add illustrations and comment blocks (comment blocks will be ignored while exporting)."
+            }
+        },
+        "verticalConfig": {
+            "spellcheck": {
+                "title": "Spell check",
+                "description": "Choose the language to start spell check. Without language chosen the check will not start."
+            },
+            "pageFormat": {
+                "title": "Page format and statistics",
+                "description": "To properly count potential page count of your masterpiece you need to choose page format."
+            }
+        }
+    }
+}

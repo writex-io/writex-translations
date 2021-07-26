@@ -1,5 +1,6 @@
 {
-    "header": "Books",
+    "pageTitle": "Books & Articles | Writex.io",
+    "header": "Books & Articles",
     "create": "Create masterpiece",
     "creating": "Creating masterpiece",
     "name": "Masterpiece name",
@@ -12,5 +13,13 @@
     "newBookErrorHelp": "Try again in a little while.",
     "networkError": "Please check your network connection.",
     "nameFieldRequired": "Field \"Name\" is required.",
-    "required": "This field is required."
+    "required": "This field is required.",
+    "error": {
+        "load": {
+            "title": "We couldn't load your works!",
+            "subtitle": "We really apologise! Please, try to refresh the page.",
+            "description": "If it will not work out, please try again in a while.",
+            "reloadButton": "Reload"
+        }
+    }
 }

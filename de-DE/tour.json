@@ -1,0 +1,62 @@
+{
+    "tooltip": {
+        "Next": "Nächster",
+        "Back": "Zurück",
+        "Last": "Getan",
+        "Close": "Schließen"
+    },
+    "book": {
+        "header": {
+            "settings": {
+                "title": "Bucheinstellungen",
+                "description": "Wenn Sie den Namen oder das Cover ändern möchten, sollten Sie dies überprüfen."
+            },
+            "verticalsManagement": {
+                "title": "Branchenmanagement",
+                "description": "Um neue Textversionen, neue Wiki-Abschnitte zu erstellen oder Ihre bestehenden Branchen neu anzuordnen, müssen Sie hierher gehen."
+            }
+        },
+        "verticals": {
+            "config": {
+                "title": "Vertikale Konfiguration",
+                "description": "Spezifisch für diese konkrete Vertikale. Sie können verschiedene Modi oder Analysen für genau diese Branche aktivieren, z. B. Rechtschreibprüfung, Lesbarkeit, Wiki-Markierungen aktivieren. Oder aktivieren Sie den Bewegungsmodus oder die Scroll-Synchronisierung."
+            },
+            "sizeHandle": {
+                "title": "Größe Griff",
+                "description": "Ziehen Sie an diesem Ziehpunkt, um die Größe von Vertikalen zu ändern."
+            }
+        },
+        "application": {
+            "tours": {
+                "title": "Hilfetouren",
+                "description": "Wenn Sie diese oder eine andere Tour wieder aktivieren möchten, gehen Sie zum Hauptmenü -> Konto -> Hilfetouren und markieren Sie die Tour, an der Sie interessiert sind."
+            }
+        },
+        "noSpine": {
+            "addContainer": {
+                "title": "Blöcke hinzufügen",
+                "description": "Teilen Sie Ihren Text in logische Blöcke auf (es ist einfacher, Blöcke danach zu verschieben und zu sortieren), fügen Sie Illustrationen und Kommentarblöcke hinzu (Kommentarblöcke werden beim Export ignoriert)."
+            }
+        },
+        "withSpine": {
+            "addSpine": {
+                "title": "Wirbelsäule hinzufügen",
+                "description": "Spine wird in allen Versionen Ihrer Texte sichtbar sein (zum Beispiel kann Spine ein Kapitel sein). Es hilft, die Struktur Ihres Textes beizubehalten, egal an welcher Version Sie arbeiten."
+            },
+            "addContainer": {
+                "title": "Blöcke hinzufügen",
+                "description": "Teilen Sie Ihren Text in logische Blöcke auf (es ist einfacher, Blöcke danach zu verschieben und zu sortieren), fügen Sie Illustrationen und Kommentarblöcke hinzu (Kommentarblöcke werden beim Export ignoriert)."
+            }
+        },
+        "verticalConfig": {
+            "spellcheck": {
+                "title": "Rechtschreibprüfung",
+                "description": "Wählen Sie die Sprache aus, um die Rechtschreibprüfung zu starten. Ohne Sprachauswahl wird die Prüfung nicht gestartet."
+            },
+            "pageFormat": {
+                "title": "Seitenformat und Statistiken",
+                "description": "Um die potenzielle Seitenzahl Ihres Meisterwerks richtig zu zählen, müssen Sie das Seitenformat auswählen."
+            }
+        }
+    }
+}

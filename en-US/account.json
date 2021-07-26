@@ -1,0 +1,81 @@
+{
+    "pageTitle": "Account | Writex.io",
+
+    "header": {
+        "account": "Account & Profile",
+        "profile": "Profile",
+        "integrations": "Integrations",
+        "security": "Security"
+    },
+    "menu": {
+        "account": "Account",
+        "profile": "Profile",
+        "paymentsBills": "Bills and Payments",
+        "integrations": "Integrations",
+        "accountSecurity": "Security"
+    },
+    "settings": {
+        "fullName": "Full name",
+        "fullNameHelp": "Change or delete any time.",
+        "bio": "Bio",
+        "bioHelp": "Will be open to other members, when the sharing functionality will be implemented.",
+        "save": "Save",
+        "saved": "Saved",
+        "dangerZone": "Danger zone",
+        "deleteAccountHeader": "Delete account",
+        "deleteAccountInfo": "Be careful! All data created by you will be deleted and can't be restored."
+    },
+    "integrations": {
+        "medium": {
+            "header": "Medium integration",
+
+            "integrationSteps": {
+                "1": "Open your <0>Medium profile</0>.",
+                "2": "Choose <0>Integration tokens</0> in the menu on the left.",
+                "3": "Press the button <0>Get generated token</0>.",
+                "4": "Copy <0>generated token</0> and paste it in the field below.",
+                "5": "Press <0>Integrate</0> button."
+            },
+
+            "linkButton": "Integrate",
+            "cancelLinkButton": "Cancel integration",
+            "linked": "It's done",
+            "linkingComplete": "Integration with Medium was successful",
+            "linkError": "Something went wrong. Please make sure that you've copied all symbols of integration token and start with <0>step 4</0>. If it didn't help then try to generate a new token (<0>step 3</0>).",
+
+            "existingIntegration": "You have an integration with Medium. You can export <0>entire Verticals as articles</0> to your Medium account.",
+            "removeExistingIntegration": "Remove existing integration",
+            "removeExistingIntegrationConfirmation": "Click again to confirm",
+
+            "errors": {
+                "delete": {
+                    "common": "Something went wrong during deletion of the Medium integration. If that will happen again, please <0>write Support</0>.",
+                    "support": {
+                        "title": "Deletion of Medium integration",
+                        "text": "Something went wrong during deletion of the Medium integration. [Please describe your steps with more details]"
+                    }
+                }
+            }
+        }
+    },
+
+    "security": {
+        "title": "Login and security",
+        "signin": {
+            "description": "Here you can find you social logins (<0>you need at least one</0>).",
+            "google": {
+                "clickToConfirm": "Click again to unlink",
+                "unlink": "Unlink Google",
+                "link": "Link Google"
+            },
+            "facebook": {
+                "clickToConfirm": "Click again to unlink",
+                "unlink": "Unlink Facebook",
+                "link": "Link Facebook"
+            },
+            "errors": {
+                "You should have at least one provider": "You need several social login providers to be able to unlink one of them. Otherwise you will not be able to login into your account."
+            }
+        }
+    }
+}

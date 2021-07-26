@@ -3,5 +3,6 @@
     "books": "Bücher",
     "account": "Konto",
     "logout": "Ausloggen",
-    "clickAgainToDelete": "Klicken Sie erneut, um zu löschen"
+    "clickAgainToDelete": "Klicken Sie erneut, um zu löschen",
+    "userError": "Informationen über Sie konnten nicht geladen werden. Bitte versuchen Sie, die Seite zu aktualisieren."
 }
