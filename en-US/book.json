@@ -182,6 +182,9 @@
             "newHeader": "Enter name, choose type and click Create.",
             "newName": "Vertical Name",
             "create": "Create",
+            "hide": "Hide",
+            "show": "Show",
+            "duplicate": "Duplicate",
             "type": {
                 "bond": "Text Version",
                 "bondDescription": "If you need to rewrite or change text, but don't want to delete an old version. Examples: Draft, Final, For Publisher.",

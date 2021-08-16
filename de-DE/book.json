@@ -182,6 +182,9 @@
             "newHeader": "Geben Sie den Namen ein, wählen Sie den Typ und klicken Sie auf Erstellen.",
             "newName": "Vertikaler Name",
             "create": "Erstellen",
+            "hide": "Ausblenden",
+            "show": "Show",
+            "duplicate": "Duplikat",
             "type": {
                 "bond": "Textversion",
                 "bondDescription": "Wenn Sie Text neu schreiben oder ändern müssen, aber keine alte Version löschen möchten. Beispiele: Entwurf, endgültig, für Verlag.",
