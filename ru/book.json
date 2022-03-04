@@ -1,0 +1,31 @@
+{
+  "modals": {
+    "changeCover": {
+      "header": "Изменить обложку",
+      "buttonGenerate": "Генерировать",
+      "buttonUpload": "Загрузить",
+      "buttonSave": "Сохранить"
+    },
+    "bookRemove": {
+      "header": "Удалить {{bookName}}?",
+      "text": "После удаления {{bookName}}, вы не сможете обратить процесс. Это навсегда! Вы уверены, что хотите продолжить?",
+      "buttonRemove": "Удалить",
+      "buttonCancel": "Отменить"
+    },
+    "bookSettings": {
+      "header": "Настройки {{bookName}}",
+      "inputLabelName": "Наименование",
+      "inputLabelNamePlaceholder": "Без названия",
+      "inputLabelDescription": "Описание",
+      "author": "Автор",
+      "createTime": "Создано",
+      "changeTime": "Изменено",
+      "textBack": "назад",
+      "buttonSave": "Сохранить"
+    }
+  },
+  "untitled": "Без названия",
+  "settings": {
+    "tooltip": "изменить настройки"
+  }
+}

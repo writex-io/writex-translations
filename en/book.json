@@ -1,0 +1,31 @@
+{
+  "modals": {
+    "changeCover": {
+      "header": "Change cover",
+      "buttonGenerate": "Generate",
+      "buttonUpload": "Upload",
+      "buttonSave": "Save"
+    },
+    "bookRemove": {
+      "header": "Remove {{bookName}}?",
+      "text": "Once removed {{bookName}} can't be restored. This is forever! Are you sure you want to proceed?",
+      "buttonRemove": "Remove",
+      "buttonCancel": "Cancel"
+    },
+    "bookSettings": {
+      "header": "Settings of {{bookName}}",
+      "inputLabelName": "Name",
+      "inputLabelNamePlaceholder": "Untitled",
+      "inputLabelDescription": "Description",
+      "author": "Author",
+      "createTime": "Created",
+      "changeTime": "Changed",
+      "textBack": "ago",
+      "buttonSave": "Save"
+    }
+  },
+  "untitled": "Untitled",
+  "settings": {
+    "tooltip": "edit settings"
+  }
+}

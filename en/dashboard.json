@@ -1,0 +1,26 @@
+{
+  "books": {
+    "allListHeader": "All books and articles",
+    "sortBy": "Sort by",
+    "sortByOpened": "Last opened",
+    "sortByModified": "Last modified",
+    "sortByAlphabet": "Alphabetically",
+    "sortByCreated": "Last created",
+    "updateTime": "Edited {{updateTime}} ago",
+    "createTime": "Created {{createTime}} ago"
+  },
+  "create": {
+    "header": "New masterpiece",
+    "newButton": "Create new",
+    "templatesCation": "Templates",
+    "basedOnBook": "Book",
+    "basedOnArticle": "Article",
+    "error": "Something went wrong while creating. The error was reported. Please try again in a little while."
+  },
+  "book": {
+    "menu": {
+      "changeCover": "Change cover",
+      "remove": "Remove"
+    }
+  }
+}

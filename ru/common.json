@@ -1,0 +1,11 @@
+{
+  "themes": {
+    "light": "Светлый",
+    "dark": "Темный",
+    "high-contrast": "Контрастный"
+  },
+  "languages": {
+    "en": "English",
+    "ru": "Русский"
+  }
+}

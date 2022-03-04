@@ -1,0 +1,51 @@
+{
+    "panel": {
+        "header": "Login",
+        "slogan": "Writex.io is an editor with super powers. It gives writers around the world extreme possibilities and outstanding customized writing experience."
+    },
+    "google": {
+        "signin": "Google sign in",
+        "link": "Link with Google",
+        "proceed": "Proceed with Google",
+        "errors": {
+            "auth/unauthorized-domain": "This domain is not authorised for authentication.",
+            "auth/popup-blocked": "Sign In Popup window has been blocked. Please allow it, otherwise you will not be able to login.",
+            "auth/generic": "Something went wrong. Please try again a bit later.",
+            "auth/credential-already-in-use": "This account is already linked"
+        }
+    },
+    "facebook": {
+        "signin": "Facebook sign in",
+        "link": "Link with Facebook",
+        "proceed": "Proceed with Facebook",
+        "errors": {
+            "auth/unauthorized-domain": "This domain is not authorised for authentication.",
+            "auth/popup-blocked": "Sign In Popup window has been blocked. Please allow it, otherwise you will not be able to login.",
+            "auth/generic": "Something went wrong. Please try again a bit later.",
+            "auth/credential-already-in-use": "This account is already linked"
+        }
+    },
+    "twitter": {
+        "signin": "Twitter sign in",
+        "link": "Link with Twitter",
+        "proceed": "Proceed with Twitter",
+        "errors": {
+            "auth/unauthorized-domain": "This domain is not authorised for authentication.",
+            "auth/popup-blocked": "Sign In Popup window has been blocked. Please allow it, otherwise you will not be able to login.",
+            "auth/generic": "Something went wrong. Please try again a bit later.",
+            "auth/credential-already-in-use": "This account is already linked"
+        }
+    },
+    "github": {
+        "signin": "Github sign in",
+        "link": "Link with Github",
+        "proceed": "Proceed with Github",
+        "errors": {
+            "auth/unauthorized-domain": "This domain is not authorised for authentication.",
+            "auth/popup-blocked": "Sign In Popup window has been blocked. Please allow it, otherwise you will not be able to login.",
+            "auth/generic": "Something went wrong. Please try again a bit later.",
+            "auth/credential-already-in-use": "This account is already linked",
+            "github.errors.auth/generic": "Something went wrong. Please try again a bit later."
+        }
+    }
+}

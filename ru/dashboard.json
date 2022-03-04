@@ -1,0 +1,26 @@
+{
+  "books": {
+    "allListHeader": "Все книги и статьи",
+    "sortBy": "Сортировать",
+    "sortByOpened": "Последняя открытая",
+    "sortByModified": "Последняя редактированная",
+    "sortByAlphabet": "Алфавитный порядок",
+    "sortByCreated": "Последняя созданная",
+    "updateTime": "Изменено {{updateTime}} назад",
+    "createTime": "Создано {{createTime}} назад"
+  },
+  "create": {
+    "header": "Новый шедевр",
+    "newButton": "Создать",
+    "templatesCation": "Шаблоны",
+    "basedOnBook": "Книгу",
+    "basedOnArticle": "Статью",
+    "error": "Что-то пошло не так во время создания. Отчет об ошибке отправлен. Пожалуйста, попробуйте немного позже."
+  },
+  "book": {
+    "menu": {
+      "changeCover": "Изменить обложку",
+      "remove": "Удалить"
+    }
+  }
+}
