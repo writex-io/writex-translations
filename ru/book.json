@@ -27,5 +27,35 @@
   "untitled": "Без названия",
   "settings": {
     "tooltip": "изменить настройки"
+  },
+  "layout": {
+    "toolbar": {
+      "widgetSettings": "настройки виджета",
+      "expandLayoutActions": "больше настроек",
+      "splitHorizontally": "разделить по-горизонтали",
+      "splitVertically": "разделить по-вертикали",
+      "removeWidget": "удалить лэйаут"
+    }
+  },
+  "chapters": {
+    "toolbar": {
+      "tooltip": "главы"
+    }
+  },
+  "versions": {
+    "toolbar": {
+      "tooltip": "версии текста"
+    }
+  },
+  "wikis": {
+    "toolbar": {
+      "tooltip": "вики"
+    }
+  },
+  "widgets": {
+    "settings": {
+      "viewCategory": "Вид",
+      "fontSize": "Размер шрифта"
+    }
   }
 }

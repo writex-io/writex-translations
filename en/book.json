@@ -27,5 +27,35 @@
   "untitled": "Untitled",
   "settings": {
     "tooltip": "edit settings"
+  },
+  "layout": {
+    "toolbar": {
+      "widgetSettings": "widget settings",
+      "expandLayoutActions": "more layout settings",
+      "splitHorizontally": "split horizontally",
+      "splitVertically": "split vertically",
+      "removeWidget": "remove layout"
+    }
+  },
+  "chapters": {
+    "toolbar": {
+      "tooltip": "chapters"
+    }
+  },
+  "versions": {
+    "toolbar": {
+      "tooltip": "text versions"
+    }
+  },
+  "wikis": {
+    "toolbar": {
+      "tooltip": "wikis"
+    }
+  },
+  "widgets": {
+    "settings": {
+      "viewCategory": "View",
+      "fontSize": "Font size"
+    }
   }
 }
