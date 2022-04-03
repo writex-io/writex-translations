@@ -29,6 +29,7 @@
     "tooltip": "edit settings"
   },
   "layout": {
+    "tooSmall": "Too small to view anything.",
     "toolbar": {
       "widgetSettings": "widget settings",
       "expandLayoutActions": "more layout settings",
@@ -40,6 +41,12 @@
   "chapters": {
     "toolbar": {
       "tooltip": "chapters"
+    },
+    "list": {
+      "header": "Chapters",
+      "navigate": "Navigate",
+      "edit": "Edit",
+      "sort": "Sort"
     }
   },
   "versions": {
@@ -53,9 +60,14 @@
     }
   },
   "widgets": {
+    "notAttached": "Press the button and choose any widget you want to see here.",
+    "attachToLayoutButton": "Choose widget",
     "settings": {
       "viewCategory": "View",
-      "fontSize": "Font size"
+      "fontSize": "Font size",
+      "textJustify": "Justify text",
+      "textJustifyFullWidth": "full width",
+      "textJustifyNormal": "normal"
     }
   }
 }

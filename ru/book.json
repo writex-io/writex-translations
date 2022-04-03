@@ -29,6 +29,7 @@
     "tooltip": "изменить настройки"
   },
   "layout": {
+    "tooSmall": "Слишком мало места для отображения.",
     "toolbar": {
       "widgetSettings": "настройки виджета",
       "expandLayoutActions": "больше настроек",
@@ -40,6 +41,12 @@
   "chapters": {
     "toolbar": {
       "tooltip": "главы"
+    },
+    "list": {
+      "header": "Главы",
+      "navigate": "Навигация",
+      "edit": "Редактирование",
+      "sort": "Сортировка"
     }
   },
   "versions": {
@@ -53,9 +60,14 @@
     }
   },
   "widgets": {
+    "notAttached": "Нажмите на кнопку и выберите виджет, который вы хотите здесь видеть.",
+    "attachToLayoutButton": "Выбрать виджет",
     "settings": {
       "viewCategory": "Вид",
-      "fontSize": "Размер шрифта"
+      "fontSize": "Размер шрифта",
+      "textJustify": "Выравнивание текста",
+      "textJustifyFullWidth": "на всю ширину",
+      "textJustifyNormal": "нормальное выравнивание"
     }
   }
 }
