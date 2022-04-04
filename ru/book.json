@@ -35,7 +35,8 @@
       "expandLayoutActions": "больше настроек",
       "splitHorizontally": "разделить по-горизонтали",
       "splitVertically": "разделить по-вертикали",
-      "removeWidget": "удалить лэйаут"
+      "removeWidget": "удалить виджет",
+      "removeLayout": "удалить лэйаут"
     }
   },
   "chapters": {

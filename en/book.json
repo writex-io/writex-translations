@@ -35,7 +35,8 @@
       "expandLayoutActions": "more layout settings",
       "splitHorizontally": "split horizontally",
       "splitVertically": "split vertically",
-      "removeWidget": "remove layout"
+      "removeWidget": "remove widget",
+      "removeLayout": "remove layout"
     }
   },
   "chapters": {
