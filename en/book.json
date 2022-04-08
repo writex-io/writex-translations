@@ -47,7 +47,13 @@
       "header": "Chapters",
       "navigate": "Navigate",
       "edit": "Edit",
-      "sort": "Sort"
+      "sort": "Sort",
+      "empty": "No chapters were created yet. Chapters are backbone of any story.",
+      "create": "new chapter",
+      "clickToRemove": "click again to remove the chapter"
+    },
+    "item": {
+      "empty": "Type the chapter name..."
     }
   },
   "versions": {
