@@ -22,6 +22,9 @@
       "changeTime": "Изменено",
       "textBack": "назад",
       "buttonSave": "Сохранить"
+    },
+    "widgets": {
+      "buttonClose": "Закрыть"
     }
   },
   "untitled": "Без названия",
@@ -59,6 +62,13 @@
   "versions": {
     "toolbar": {
       "tooltip": "версии текста"
+    },
+    "list": {
+      "header": "Версии текста",
+      "navigate": "Навигация",
+      "edit": "Редактирование",
+      "sort": "Сортировка",
+      "create": "новая версия текста"
     }
   },
   "wikis": {
@@ -75,6 +85,17 @@
       "textJustify": "Выравнивание текста",
       "textJustifyFullWidth": "на всю ширину",
       "textJustifyNormal": "нормальное выравнивание"
+    },
+    "list": {
+      "chapters": {
+        "name": "Список глав",
+        "description": "Если вам необхоим список глав перед глазами, используйте этот виджет."
+      }
+    },
+    "categories": {
+      "chapters": {
+        "name": "Главы"
+      }
     }
   }
 }

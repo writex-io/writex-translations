@@ -22,6 +22,9 @@
       "changeTime": "Changed",
       "textBack": "ago",
       "buttonSave": "Save"
+    },
+    "widgets": {
+      "buttonClose": "Close"
     }
   },
   "untitled": "Untitled",
@@ -59,6 +62,13 @@
   "versions": {
     "toolbar": {
       "tooltip": "text versions"
+    },
+    "list": {
+      "header": "Text versions",
+      "navigate": "Navigate",
+      "edit": "Edit",
+      "sort": "Sort",
+      "create": "new text version"
     }
   },
   "wikis": {
@@ -75,6 +85,17 @@
       "textJustify": "Justify text",
       "textJustifyFullWidth": "full width",
       "textJustifyNormal": "normal"
+    },
+    "list": {
+      "chapters": {
+        "name": "Chapters list",
+        "description": "If you need a list of chapters in front of your eyes all the time, you can use this widget."
+      }
+    },
+    "categories": {
+      "chapters": {
+        "name": "Chapters"
+      }
     }
   }
 }
