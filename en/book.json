@@ -65,21 +65,31 @@
     },
     "list": {
       "header": "Text versions",
-      "navigate": "Navigate",
+      "activate": "Activate",
       "edit": "Edit",
       "sort": "Sort",
-      "create": "new text version"
+      "create": "new text version",
+      "empty": "No text versions were created yet. Create a new text version, for example \"Draft\" or \"Final\"."
+    },
+    "item": {
+      "empty": "Start typing your chapter text here..."
     }
   },
   "wikis": {
     "toolbar": {
       "tooltip": "wikis"
+    },
+    "list": {
+      "header": "Wikis"
     }
   },
   "widgets": {
     "notAttached": "Press the button and choose any widget you want to see here.",
     "attachToLayoutButton": "Choose widget",
     "settings": {
+      "main": "Widget settings",
+      "version": "Text version",
+      "fontFamily": "Font family",
       "viewCategory": "View",
       "fontSize": "Font size",
       "textJustify": "Justify text",
@@ -90,12 +100,32 @@
       "chapters": {
         "name": "Chapters list",
         "description": "If you need a list of chapters in front of your eyes all the time, you can use this widget."
+      },
+      "versions": {
+        "name": "Versions list",
+        "description": "If you need a list of versions in front of your eyes all the time (with adding, editing and removing), you can use this widget."
+      },
+      "textBlocks": {
+        "name": "Text",
+        "description": "One of the text versions. Choose a text version in the widget settings and start writing."
       }
     },
     "categories": {
       "chapters": {
         "name": "Chapters"
+      },
+      "versions": {
+        "name": "Versions"
       }
+    }
+  },
+  "textBlocks": {
+    "version": {
+      "empty": "Here you should see one of the text versions. But active version was not chosen. Please choose a text version to display here."
+    },
+    "stats": {
+      "characters": "characters",
+      "words": "words"
     }
   }
 }
