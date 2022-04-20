@@ -80,7 +80,9 @@
       "tooltip": "wikis"
     },
     "list": {
-      "header": "Wikis"
+      "header": "Wikis",
+      "empty": "No wikis here yet. Start describing the world around your story. Create characters, cities, planets.",
+      "create": "create wiki"
     }
   },
   "widgets": {
