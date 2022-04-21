@@ -79,6 +79,14 @@
     "toolbar": {
       "tooltip": "wikis"
     },
+    "item": {
+      "name": {
+        "empty": "Enter all possible wiki's names and entries in the text through comma..."
+      },
+      "categories": {
+        "empty": "Enter categories names, to which this wiki belongs..."
+      }
+    },
     "list": {
       "header": "Wikis",
       "empty": "No wikis here yet. Start describing the world around your story. Create characters, cities, planets.",
