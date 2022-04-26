@@ -80,17 +80,35 @@
       "tooltip": "wikis"
     },
     "item": {
+      "placeholder": "Start describing you Wiki here...",
+      "options": {
+        "divider": "options",
+        "search": "Search and mark options",
+        "categories": "Categories (comma separated)",
+        "toMark": "Mark wikis in texts",
+        "dividerText": "wiki text"
+      },
       "name": {
         "empty": "Enter all possible wiki's names and entries in the text through comma..."
       },
       "categories": {
         "empty": "Enter categories names, to which this wiki belongs..."
+      },
+      "search": {
+        "fuzziness": {
+          "0": "Absolute match",
+          "1": "Misspells are allowed",
+          "2": "A bit of fuzziness",
+          "3": "Fuzziness crazy",
+          "4": "You don't know what you're doing"
+        }
       }
     },
     "list": {
       "header": "Wikis",
       "empty": "No wikis here yet. Start describing the world around your story. Create characters, cities, planets.",
-      "create": "create wiki"
+      "create": "create wiki",
+      "clickToRemove": "click again to remove wiki"
     }
   },
   "widgets": {
