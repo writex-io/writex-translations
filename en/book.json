@@ -111,6 +111,11 @@
       "clickToRemove": "click again to remove wiki"
     }
   },
+  "wiki": {
+    "item": {
+      "empty": "Wiki will appear here when you will click on marked wiki in the text."
+    }
+  },
   "widgets": {
     "notAttached": "Press the button and choose any widget you want to see here.",
     "attachToLayoutButton": "Choose widget",
