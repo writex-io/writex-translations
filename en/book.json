@@ -69,7 +69,8 @@
       "edit": "Edit",
       "sort": "Sort",
       "create": "new text version",
-      "empty": "No text versions were created yet. Create a new text version, for example \"Draft\" or \"Final\"."
+      "empty": "No text versions were created yet. Create a new text version, for example \"Draft\" or \"Final\".",
+      "clickToRemove": "click again to remove"
     },
     "item": {
       "empty": "Start typing your chapter text here..."
@@ -154,11 +155,17 @@
   },
   "textBlocks": {
     "version": {
-      "empty": "Here you should see one of the text versions. But active version was not chosen. Please choose a text version to display here."
+      "empty": "No text versions were created yet. You need to have at least one to start writing. Click button below to create one.",
+      "notChosen": "Here you should see one of the text versions. But active version was not chosen. Please choose a text version to display here."
     },
     "stats": {
       "characters": "characters",
       "words": "words"
+    }
+  },
+  "spellchecks": {
+    "list": {
+      "empty": "No issues found. Congrats!"
     }
   }
 }
