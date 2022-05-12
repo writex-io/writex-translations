@@ -161,7 +161,8 @@
     },
     "stats": {
       "characters": "символы",
-      "words": "слова"
+      "words": "слова",
+      "spellcheck": "правописание"
     }
   },
   "spellchecks": {
