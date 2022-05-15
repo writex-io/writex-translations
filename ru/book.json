@@ -129,7 +129,21 @@
       "fontSize": "Размер шрифта",
       "textJustify": "Выравнивание текста",
       "textJustifyFullWidth": "на всю ширину",
-      "textJustifyNormal": "нормальное выравнивание"
+      "textJustifyNormal": "нормальное выравнивание",
+      "language": "Язык",
+      "statistics": "Статистика",
+      "showGraphs": "Показывать графики",
+      "graphsAreShown": "Графики видимы",
+      "graphsAreHidden": "Графики скрыты",
+      "statisticsAggregationLabel": "Визуализация статистики",
+      "statisticsAggregation": {
+        "hours": "по-часовая",
+        "minutes": "по-минутная",
+        "days": "дневная",
+        "weeks": " недельная",
+        "months": "месячная",
+        "years": "годовая"
+      }
     },
     "list": {
       "chapters": {

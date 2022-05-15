@@ -128,7 +128,21 @@
       "fontSize": "Font size",
       "textJustify": "Justify text",
       "textJustifyFullWidth": "full width",
-      "textJustifyNormal": "normal"
+      "textJustifyNormal": "normal",
+      "language": "Language",
+      "statistics": "Statistics",
+      "showGraphs": "Show charts",
+      "graphsAreShown": "Charts are visible",
+      "graphsAreHidden": "Charts are hidden",
+      "statisticsAggregationLabel": "Statistics visualisation",
+      "statisticsAggregation": {
+        "hours": "hourly",
+        "minutes": "minutely",
+        "days": "daily",
+        "weeks": " weekly",
+        "months": "monthly",
+        "years": "yearly"
+      }
     },
     "list": {
       "chapters": {
