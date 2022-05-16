@@ -182,5 +182,16 @@
     "list": {
       "empty": "No issues found. Congrats!"
     }
+  },
+  "dictionary": {
+    "toolbar": {
+      "tooltip": "dictionary"
+    },
+    "list": {
+      "header": "Dictionary"
+    },
+    "item": {
+      "empty": "Enter words through comma, that will be ignored by spellchecker..."
+    }
   }
 }
