@@ -176,6 +176,11 @@
       "characters": "characters",
       "words": "words",
       "spellcheck": "issues"
+    },
+    "menu": {
+      "tooltip": {
+        "addToDictionary": "add to dictionary"
+      }
     }
   },
   "spellchecks": {

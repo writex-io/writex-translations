@@ -177,6 +177,11 @@
       "characters": "символы",
       "words": "слова",
       "spellcheck": "правописание"
+    },
+    "menu": {
+      "tooltip": {
+        "addToDictionary": "добавить в словарь"
+      }
     }
   },
   "spellchecks": {
