@@ -179,21 +179,27 @@
     },
     "menu": {
       "tooltip": {
-        "addToDictionary": "add to dictionary"
+        "addToDictionary": "ignore in this text"
       }
     }
   },
   "spellchecks": {
     "list": {
       "empty": "No issues found. Congrats!"
+    },
+    "toolbar": {
+      "ignoreButton": {
+        "ignore": "Ignore",
+        "inThisText": "in this text"
+      }
     }
   },
   "dictionary": {
     "toolbar": {
-      "tooltip": "dictionary"
+      "tooltip": "ignore in this text"
     },
     "list": {
-      "header": "Dictionary"
+      "header": "Ignore in this text"
     },
     "item": {
       "empty": "Enter words through comma, that will be ignored by spellchecker..."
