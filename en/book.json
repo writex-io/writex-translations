@@ -35,6 +35,7 @@
     "tooSmall": "Too small to view anything.",
     "toolbar": {
       "widgetSettings": "widget settings",
+      "widgetStatisticsSettings": "statistics settings",
       "expandLayoutActions": "more layout settings",
       "splitHorizontally": "split horizontally",
       "splitVertically": "split vertically",
@@ -109,7 +110,8 @@
       "header": "Wikis",
       "empty": "No wikis here yet. Start describing the world around your story. Create characters, cities, planets.",
       "create": "create wiki",
-      "clickToRemove": "click again to remove wiki"
+      "clickToRemove": "click again to remove wiki",
+      "categoriesInfo": "click on the category to filter the list"
     }
   },
   "wiki": {
@@ -119,6 +121,7 @@
   },
   "widgets": {
     "notAttached": "Press the button and choose any widget you want to see here.",
+    "choosePreset": "Choose layout preset from the list",
     "attachToLayoutButton": "Choose widget",
     "settings": {
       "main": "Widget settings",
@@ -134,6 +137,7 @@
       "showGraphs": "Show charts",
       "graphsAreShown": "Charts are visible",
       "graphsAreHidden": "Charts are hidden",
+      "datesRange": "Dates range",
       "statisticsAggregationLabel": "Statistics visualisation",
       "statisticsAggregation": {
         "hours": "hourly",
