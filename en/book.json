@@ -54,6 +54,7 @@
       "sort": "Sort",
       "empty": "No chapters were created yet. Chapters are backbone of any story.",
       "create": "new chapter",
+      "createIn": "in",
       "clickToRemove": "click again to remove the chapter"
     },
     "item": {
@@ -88,7 +89,11 @@
         "search": "Search and mark options",
         "categories": "Categories (comma separated)",
         "toMark": "Mark wikis in texts",
-        "dividerText": "wiki text"
+        "dividerText": "wiki text",
+        "icon": "Icon",
+        "isShowIcon": "Show icon",
+        "isShowColor": "Show color",
+        "color": "Color"
       },
       "name": {
         "empty": "Enter all possible wiki's names and entries in the text through comma..."
@@ -110,8 +115,15 @@
       "header": "Wikis",
       "empty": "No wikis here yet. Start describing the world around your story. Create characters, cities, planets.",
       "create": "create wiki",
+      "createIn": "in",
       "clickToRemove": "click again to remove wiki",
-      "categoriesInfo": "click on the category to filter the list"
+      "categoriesInfo": "click on the category to filter the list",
+      "clearSelection": "clear selection"
+    },
+    "tree": {
+      "header": "Wikis and categories",
+      "info": "all categories and created wikis are displayed here",
+      "create": "create"
     }
   },
   "wiki": {
@@ -167,7 +179,16 @@
         "name": "Chapters"
       },
       "versions": {
-        "name": "Versions"
+        "name": "Text"
+      },
+      "tools": {
+        "name": "Tools"
+      },
+      "analysis": {
+        "name": "Analysis"
+      },
+      "wikis": {
+        "name": "Wikis"
       }
     }
   },
@@ -207,6 +228,19 @@
     },
     "item": {
       "empty": "Enter words through comma, that will be ignored by spellchecker..."
+    }
+  },
+  "share": {
+    "tooltip": "change sharing settings",
+    "button": "share",
+    "list": {
+      "error": "Sorry, couldn't load access rights. Please try again later",
+      "clickToRemove": "click again to remove person",
+      "empty": "Only you has an access. Add people using selector at the top."
+    },
+    "userAutocomplete": {
+      "placeholder": "Add people",
+      "noResults": "Please enter full email. For a fraud protection search on partial email will not be performed."
     }
   }
 }
