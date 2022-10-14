@@ -29,7 +29,8 @@
   },
   "untitled": "Untitled",
   "settings": {
-    "tooltip": "edit settings"
+    "tooltip": "edit settings",
+    "noAccess": "You are not an author"
   },
   "layout": {
     "tooSmall": "Too small to view anything.",
@@ -146,6 +147,9 @@
       "textJustifyNormal": "normal",
       "language": "Language",
       "statistics": "Statistics",
+      "contributor": "Contributor",
+      "contributorMe": "Me",
+      "contributorAll": "All",
       "showGraphs": "Show charts",
       "graphsAreShown": "Charts are visible",
       "graphsAreHidden": "Charts are hidden",
@@ -233,6 +237,7 @@
   "share": {
     "tooltip": "change sharing settings",
     "button": "share",
+    "notAuthor": "You can't share if you are not an author.",
     "list": {
       "error": "Sorry, couldn't load access rights. Please try again later",
       "clickToRemove": "click again to remove person",
@@ -241,6 +246,9 @@
     "userAutocomplete": {
       "placeholder": "Add people",
       "noResults": "Please enter full email. For a fraud protection search on partial email will not be performed."
-    }
+    },
+    "accessChangedToRestricted": "Your access was restricted. Document reload will be done in a second.",
+    "accessChangedToGranted": "Access to some additional parts of the book was granted.",
+    "reload": "Reload"
   }
 }
