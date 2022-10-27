@@ -1,13 +1,14 @@
 {
   "books": {
-    "allListHeader": "All books and articles",
+    "allListHeader": "Books and articles",
     "sortBy": "Sort by",
     "sortByOpened": "Last opened",
     "sortByModified": "Last modified",
     "sortByAlphabet": "Alphabetically",
     "sortByCreated": "Last created",
     "updateTime": "Edited {{updateTime}} ago",
-    "createTime": "Created {{createTime}} ago"
+    "createTime": "Created {{createTime}} ago",
+    "allListOldHeader": "Old format"
   },
   "create": {
     "header": "New masterpiece",

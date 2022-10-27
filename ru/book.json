@@ -163,7 +163,13 @@
         "weeks": " недельная",
         "months": "месячная",
         "years": "годовая"
-      }
+      },
+      "markWikis": "Отмечать Вики в тексте",
+      "markWikisActive": "отмечаются",
+      "markWikisInactive": "не отмечаются",
+      "markSpellcheck": "Проверка правописани",
+      "markSpellcheckActive": "включена",
+      "markSpellcheckInactive": "не включена"
     },
     "list": {
       "chapters": {

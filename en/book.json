@@ -162,7 +162,13 @@
         "weeks": " weekly",
         "months": "monthly",
         "years": "yearly"
-      }
+      },
+      "markWikis": "Mark Wikis in the text",
+      "markWikisActive": "marked",
+      "markWikisInactive": "not marked",
+      "markSpellcheck": "Spellcheck",
+      "markSpellcheckActive": "enabled",
+      "markSpellcheckInactive": "disabled"
     },
     "list": {
       "chapters": {
