@@ -7,5 +7,9 @@
   "languages": {
     "en": "English",
     "ru": "Русский"
+  },
+  "user": {
+    "account": "Аккаунт",
+    "logout": "Выход"
   }
 }

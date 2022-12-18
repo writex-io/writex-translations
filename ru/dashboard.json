@@ -1,4 +1,12 @@
 {
+  "global": {
+    "helmetTitles": {
+      "list": {
+        "title": "Книги и Статьи | {{name}}",
+        "description": "Все книги и статьи."
+      }
+    }
+  },
   "books": {
     "allListHeader": "Книги и статьи",
     "sortBy": "Сортировать",
@@ -9,6 +17,11 @@
     "updateTime": "Изменено {{updateTime}} назад",
     "createTime": "Создано {{createTime}} назад",
     "allListOldHeader": "В старом формате"
+  },
+  "oldBooks": {
+    "convertButton": "В новый формат",
+    "converting": "конвертируем",
+    "removeButton": "нажмите еще раз"
   },
   "create": {
     "header": "Новый шедевр",

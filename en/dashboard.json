@@ -1,4 +1,12 @@
 {
+  "global": {
+    "helmetTitles": {
+      "list": {
+        "title": "Books and Articles | {{name}}",
+        "description": "List of your books and articles."
+      }
+    }
+  },
   "books": {
     "allListHeader": "Books and articles",
     "sortBy": "Sort by",
@@ -9,6 +17,11 @@
     "updateTime": "Edited {{updateTime}} ago",
     "createTime": "Created {{createTime}} ago",
     "allListOldHeader": "Old format"
+  },
+  "oldBooks": {
+    "convertButton": "Convert to a new format",
+    "converting": "converting",
+    "removeButton": "click again to remove"
   },
   "create": {
     "header": "New masterpiece",

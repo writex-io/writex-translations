@@ -1,4 +1,13 @@
 {
+  "global": {
+    "helmetTitles": {
+      "book": {
+        "titleGeneric": "Book",
+        "title": "{{name}} | Writex.io",
+        "description": "Book or article."
+      }
+    }
+  },
   "modals": {
     "changeCover": {
       "header": "Change cover",

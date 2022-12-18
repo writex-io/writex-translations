@@ -1,0 +1,91 @@
+{
+  "global": {
+    "hint": "Ваш персональный аккаунт",
+    "helmetTitles": {
+      "profile": {
+        "title": "Профайл | {{name}}",
+        "description": "Ваш публичный профайл."
+      },
+      "authentication": {
+        "title": "Аутентификация | {{name}}",
+        "description": "Настройки аутентификации."
+      },
+      "integrations": {
+        "title": "Интеграции | {{name}}",
+        "description": "Настройки интеграций с другими сервисами."
+      }
+    }
+  },
+  "authentication": {
+    "name": "Вход в систему",
+    "header": "Вход в систему",
+    "description": "Для входа в систему используйте сервисы социальных сетей.",
+    "google": {
+      "header": "Google",
+      "link": "Связать с Google",
+      "remove": "Удалить Google аутентификацию",
+      "descriptionWithoutLink": "Мы не будем иметь доступ к сервисам Google и вашей личной информации, кроме вашего адреса электронной почты и имени.",
+      "description": "Вы можете входить в writex.io с помощью Google аккаунта <avatar /> {{email}}."
+    },
+    "facebook": {
+      "header": "Facebook",
+      "link": "Связать с Facebook",
+      "remove": "Удалить Facebook аутентификацию",
+      "descriptionWithoutLink": "Мы не будем публиковать никакую информацию на вашей стене и не будем иметь доступ к вашей личной информации, кроме вашего адреса электронной почты и имени.",
+      "description": "Вы можете входить в writex.io с помощью Facebook аккаунта <avatar /> {{email}}."
+    },
+    "twitter": {
+      "header": "Twitter",
+      "link": "Связать с Twitter",
+      "remove": "Удалить Twitter аутентификацию",
+      "descriptionWithoutLink": "Мы не будем публиковать никакую информацию на вашей стене и не будем иметь доступ к вашей личной информации, кроме вашего адреса электронной почты и имени.",
+      "description": "Вы можете входить в writex.io с помощью Twitter аккаунта <avatar /> {{email}}."
+    },
+    "github": {
+      "header": "GitHub",
+      "link": "Связать с GitHub",
+      "remove": "Удалить GitHub аутентификацию",
+      "descriptionWithoutLink": "Мы не будем иметь доступ к вашей личной информации, кроме вашего адреса электронной почты и имени.",
+      "description": "Вы можете входить в writex.io с помощью GitHub аккаунта <avatar /> {{email}}."
+    }
+  },
+  "profile": {
+    "name": "Публичный профайл",
+    "header": "Профайл",
+    "fullName": "Полное имя",
+    "fullNameHint": "Измените или удалите в любое время.",
+    "bio": "Кратко о себе",
+    "bioHint": "Будет видимо остальным авторам и читателям после того как будет добавлена возможность публикаций.",
+    "save": "Сохранить",
+    "saved": "Сохранено"
+  },
+  "integrations": {
+    "name": "Интеграции",
+    "header": "Интеграции",
+    "description": "Интеграция с другими сервисами",
+    "save": "Сохранить",
+    "saved": "Сохранено",
+
+    "medium": {
+      "header": "Medium",
+      "connect": "Подключить",
+      "connected": "{{mediumName}} – аккаунт Medium, который подключен к этому профайлу. Вы можете экспортировать публикации в Medium.",
+      "disconnect": "Отключить",
+      "notConnected": "У вас нет аккаунта Medium, подключенного к этому профайлу.",
+      "account": "Открыть Medium аккаунт",
+      "modal": {
+        "title": "Подключить Medium аккаунт",
+        "description": "Вам нужен integration token для интеграции с аккаунтом Medium. Вы можете получить его в настройках вашего аккаунта Medium.",
+        "description2": "Следуйте инструкции ниже.",
+        "step1": "Перейдите на <b><a href=\"https://medium.com/me/settings\" target=\"_blank\">Medium settings</a></b> –> \"<b>Security and Apps</b>\" –> \"<b>Integration tokens</b>\".",
+        "step2": "Скопируйте integration token и вставьте его в поле ниже.",
+        "step3": "Нажмите \"<b>Интегрировать</b>\".",
+        "step4": "Все готово. Теперь вы можете экспортировать статьи в Medium.",
+        "save": "Интегрировать",
+        "saved": "Интеграция с Medium аккаунтом прошла успешно.",
+        "cancel": "Отмена",
+        "tokenPlaceholder": "Вставьте integration token"
+      }
+    }
+  }
+}
