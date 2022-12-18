@@ -1,13 +1,27 @@
 {
+  "global": {
+    "helmetTitles": {
+      "list": {
+        "title": "Книги и Статьи | {{name}}",
+        "description": "Все книги и статьи."
+      }
+    }
+  },
   "books": {
-    "allListHeader": "Все книги и статьи",
+    "allListHeader": "Книги и статьи",
     "sortBy": "Сортировать",
     "sortByOpened": "Последняя открытая",
     "sortByModified": "Последняя редактированная",
     "sortByAlphabet": "Алфавитный порядок",
     "sortByCreated": "Последняя созданная",
     "updateTime": "Изменено {{updateTime}} назад",
-    "createTime": "Создано {{createTime}} назад"
+    "createTime": "Создано {{createTime}} назад",
+    "allListOldHeader": "В старом формате"
+  },
+  "oldBooks": {
+    "convertButton": "В новый формат",
+    "converting": "конвертируем",
+    "removeButton": "нажмите еще раз"
   },
   "create": {
     "header": "Новый шедевр",

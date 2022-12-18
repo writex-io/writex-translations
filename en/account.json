@@ -1,0 +1,92 @@
+{
+  "global": {
+    "hint": "Your personal account",
+    "helmetTitles": {
+      "profile": {
+        "title": "Profile | {{name}}",
+        "description": "Your public profile."
+      },
+      "authentication": {
+        "title": "Authentication | {{name}}",
+        "description": "Authentication settings."
+      },
+      "integrations": {
+        "title": "Integrations | {{name}}",
+        "description": "Integrations with third-party services."
+      }
+    }
+  },
+  "authentication": {
+    "name": "Authentication",
+    "header": "Authentication",
+    "description": "Use third-party authentication services to sign in to your account.",
+    "google": {
+      "header": "Google",
+      "link": "Link Google account",
+      "remove": "Remove Google authentication",
+      "descriptionWithoutLink": "We will not have access to your personal information, only your email address and name.",
+      "description": "You can sign in to writex.io using your Google account <avatar /> {{email}}."
+    },
+    "facebook": {
+      "header": "Facebook",
+      "link": "Link Facebook account",
+      "remove": "Remove Facebook authentication",
+      "descriptionWithoutLink": "We will not post or share anything on your Facebook account and will not have access to your personal information, only your email address and name.",
+      "description": "You can sign in to writex.io using your Facebook account <avatar /> {{email}}."
+    },
+    "twitter": {
+      "header": "Twitter",
+      "link": "Link Twitter account",
+      "remove": "Remove Twitter authentication",
+      "descriptionWithoutLink": "We will not post or share anything on your Twitter account and will not have access to your personal information, only your email address and name.",
+      "description": "You can sign in to writex.io using your Twitter account <avatar /> {{email}}."
+    },
+    "github": {
+      "header": "GitHub",
+      "link": "Link GitHub account",
+      "remove": "Remove GitHub authentication",
+      "descriptionWithoutLink": "We will not have access to your personal information, only your email address and name.",
+      "description": "You can sign in to writex.io using your GitHub account <avatar /> {{email}}."
+    }
+  },
+  "profile": {
+    "name": "Public profile",
+    "header": "Profile",
+    "fullName": "Full Name",
+    "fullNameHint": "Change or delete any time.",
+    "bio": "Shortly about yourself",
+    "bioHint": "Will be open to other members, when the sharing functionality will be implemented.",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "integrations": {
+    "name": "Integrations",
+    "header": "Integrations",
+    "description": "Integrate your account with other services.",
+    "save": "Save",
+    "saved": "Saved",
+
+    "medium": {
+      "header": "Medium",
+      "connect": "Connect",
+      "connected": "{{mediumName}} – your Medium account integrated with current profile. You can export publications to your Medium account.",
+      "disconnect": "Disconnect",
+      "notConnected": "You don't have an integration with Medium.",
+      "account": "Visit Medium account",
+
+      "modal": {
+        "header": "Connect Medium account",
+        "description": "To connect your Medium account, you need to get an integration token.",
+        "description2": " You can get it by following the instructions below.",
+        "step1": "Go to <b><a href=\"https://medium.com/me/settings\" target=\"_blank\">Medium settings</a></b> –> \"<b>Security and Apps</b>\" –> \"<b>Integration tokens</b>\".",
+        "step2": "Copy the integration token and paste it to the field below.",
+        "step3": "Click \"<b>Connect</b>\" button.",
+        "step4": "You are done",
+        "save": "Connect",
+        "saved": "Integration with Medium was successfully established.",
+        "cancel": "Cancel",
+        "tokenPlaceholder": "Paste integration token here"
+      }
+    }
+  }
+}
