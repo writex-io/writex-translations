@@ -190,7 +190,23 @@
       },
       "textBlocks": {
         "name": "Text",
-        "description": "One of the text versions. Choose a text version in the widget settings and start writing."
+        "description": "A text widget is a simple text editor. It shows the text of your book or article."
+      },
+      "comments": {
+        "name": "Comments",
+        "description": "Comments to the text. List of all comments to the text."
+      },
+      "spellchecks": {
+        "name": "Spellcheck",
+        "description": "List of all found issues in your text."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "List of all wikis in your text."
+      },
+      "wiki": {
+        "name": "Wiki",
+        "description": "Wiki widget shows the description of the selected wiki."
       }
     },
     "categories": {
@@ -223,7 +239,8 @@
     },
     "menu": {
       "tooltip": {
-        "addToDictionary": "ignore in this text"
+        "addToDictionary": "ignore in this text",
+        "addComment": "add comment"
       }
     }
   },

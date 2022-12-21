@@ -35,6 +35,7 @@
     "menu": {
       "changeCover": "Change cover",
       "remove": "Remove"
-    }
+    },
+    "byAuthor": "By {{authorName}}"
   }
 }

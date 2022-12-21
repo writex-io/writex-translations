@@ -35,6 +35,7 @@
     "menu": {
       "changeCover": "Изменить обложку",
       "remove": "Удалить"
-    }
+    },
+    "byAuthor": "Автор {{authorName}}"
   }
 }
