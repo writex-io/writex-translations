@@ -34,6 +34,26 @@
     },
     "widgets": {
       "buttonClose": "Close"
+    },
+    "publishing": {
+      "medium": {
+        "header": "Publishing to Medium",
+        "text": "You are about to publish your article to Medium (in draft mode). New article will be created, even if you have already published this article before. Choose chapters and wikis that you want to publish.",
+        "divider": "Wikis will be published after main text",
+        "buttonPublish": "Publish",
+        "buttonCancel": "Cancel",
+        "published": "It has been published to Medium. Click on the button below to open an article.",
+        "publishedButton": "Open article"
+      },
+      "epub": {
+        "header": "Saving as EPUB",
+        "text": "You are about to generate EPUB. Choose chapters and wikis that you want to publish.",
+        "divider": "Wikis will be published after main text",
+        "buttonPublish": "Generate",
+        "buttonCancel": "Cancel",
+        "published": "EPUB file was generated. Click on the button below to save it.",
+        "publishedButton": "Save EPUB"
+      }
     }
   },
   "untitled": "Untitled",
@@ -282,5 +302,10 @@
     "accessChangedToRestricted": "Your access was restricted. Document reload will be done in a second.",
     "accessChangedToGranted": "Access to some additional parts of the book was granted.",
     "reload": "Reload"
+  },
+  "publish": {
+    "medium": "Publish to Medium",
+    "epub": "Save as EPUB",
+    "tooltip": "publishing menu"
   }
 }

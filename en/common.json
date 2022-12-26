@@ -11,5 +11,35 @@
   "user": {
     "account": "Account",
     "logout": "Logout"
+  },
+  "integrations": {
+    "name": "Integrations",
+    "header": "Integrations",
+    "description": "Integrate your account with other services.",
+    "save": "Save",
+    "saved": "Saved",
+
+    "medium": {
+      "header": "Medium",
+      "connect": "Connect",
+      "connected": "{{mediumName}} – your Medium account integrated with current profile. You can export publications to your Medium account.",
+      "disconnect": "Disconnect",
+      "notConnected": "You don't have an integration with Medium.",
+      "account": "Visit Medium account",
+
+      "modal": {
+        "header": "Connect Medium account",
+        "description": "To connect your Medium account, you need to get an integration token.",
+        "description2": " You can get it by following the instructions below.",
+        "step1": "Go to <b><a href=\"https://medium.com/me/settings\" target=\"_blank\">Medium settings</a></b> –> \"<b>Security and Apps</b>\" –> \"<b>Integration tokens</b>\".",
+        "step2": "Copy the integration token and paste it to the field below.",
+        "step3": "Click \"<b>Connect</b>\" button.",
+        "step4": "You are done",
+        "save": "Connect",
+        "saved": "Integration with Medium was successfully established.",
+        "cancel": "Cancel",
+        "tokenPlaceholder": "Paste integration token here"
+      }
+    }
   }
 }
