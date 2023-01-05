@@ -30,7 +30,9 @@
       "createTime": "Created",
       "changeTime": "Changed",
       "textBack": "ago",
-      "buttonSave": "Save"
+      "buttonSave": "Save",
+      "changeCoverButton": "Change cover",
+      "changeCoverTitle": "Change cover"
     },
     "widgets": {
       "buttonClose": "Close"

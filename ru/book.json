@@ -30,7 +30,9 @@
       "createTime": "Создано",
       "changeTime": "Изменено",
       "textBack": "назад",
-      "buttonSave": "Сохранить"
+      "buttonSave": "Сохранить",
+      "changeCoverButton": "Изменить обложку",
+      "changeCoverTitle": "Изменить обложку"
     },
     "widgets": {
       "buttonClose": "Закрыть"
