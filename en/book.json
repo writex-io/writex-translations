@@ -32,7 +32,8 @@
       "textBack": "ago",
       "buttonSave": "Save",
       "changeCoverButton": "Change cover",
-      "changeCoverTitle": "Change cover"
+      "changeCoverTitle": "Change cover",
+      "buttonClose": "Close"
     },
     "widgets": {
       "buttonClose": "Close"

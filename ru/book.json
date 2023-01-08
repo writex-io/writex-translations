@@ -32,7 +32,8 @@
       "textBack": "назад",
       "buttonSave": "Сохранить",
       "changeCoverButton": "Изменить обложку",
-      "changeCoverTitle": "Изменить обложку"
+      "changeCoverTitle": "Изменить обложку",
+      "buttonClose": "Закрыть"
     },
     "widgets": {
       "buttonClose": "Закрыть"

@@ -16,12 +16,17 @@
     "sortByCreated": "Last created",
     "updateTime": "Edited {{updateTime}} ago",
     "createTime": "Created {{createTime}} ago",
-    "allListOldHeader": "Old format"
+    "allListOldHeader": "Old format",
+    "empty": "You have no books or articles yet.",
+    "emptyAdd": "Let's create some! Just click on the button above."
   },
   "oldBooks": {
     "convertButton": "Convert to a new format",
     "converting": "converting",
     "removeButton": "click again to remove"
+  },
+  "sharedBooks": {
+    "header": "Shared with me"
   },
   "create": {
     "header": "New masterpiece",

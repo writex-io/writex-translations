@@ -16,12 +16,17 @@
     "sortByCreated": "Последняя созданная",
     "updateTime": "Изменено {{updateTime}} назад",
     "createTime": "Создано {{createTime}} назад",
-    "allListOldHeader": "В старом формате"
+    "allListOldHeader": "В старом формате",
+    "empty": "Пока нет ни одной книги или статьи.",
+    "emptyAdd": "Давайте создадим первую книгу или статью. Нажмите на кнопку «Создать» выше."
   },
   "oldBooks": {
     "convertButton": "В новый формат",
     "converting": "конвертируем",
     "removeButton": "нажмите еще раз"
+  },
+  "sharedBooks": {
+    "header": "Поделились со мной"
   },
   "create": {
     "header": "Новый шедевр",

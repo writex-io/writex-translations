@@ -9,8 +9,18 @@
     "ru": "Русский"
   },
   "user": {
-    "account": "Account",
-    "logout": "Logout"
+    "account": "Account & Profile",
+    "logout": "Logout",
+    "feedback": "Bug report or feedback"
+  },
+  "bugReport": {
+    "title": "Bug report or feedback",
+    "description": "We will try to help you as fast as we can. Please, try to describe your problem in as much detail as possible. We also would love to hear your ideas and suggestions for new features or improvements. ❤️",
+    "send": "Send",
+    "cancel": "Cancel",
+    "placeholder": "Describe the problem or your suggestion",
+    "error": "Something went wrong. Please, try again or write us via email support@writex.io",
+    "success": "Thank you for your feedback! We will try to help you as fast as we can."
   },
   "integrations": {
     "name": "Integrations",
