@@ -1,0 +1,15 @@
+{
+  "tooltip": {
+    "back": "Back",
+    "close": "Close",
+    "next": "Next"
+  },
+  "book": {
+    "workingLayouts": "<h>Presets</h><img/><p>Here you will find a <b>collection of presets</b> to change the appearance of your working area.</p><p>Experiment and switch between them during your work.</p>",
+    "settings": "<h>Settings</h><img/><p>Click to open book settings. Change the <b>book name</b>, <b>description</b>, and <b>cover</b>.</p>",
+    "chapters": "<h>Chapters</h><img/><p>Click to open the <b>chapters</b> panel. Here you can <b>add</b>, <b>remove</b>, and <b>reorder</b> chapters.</p><p>Create nested <i>sub-chapters</i> for various purposes: write <b>side stories</b>, add <b>notes</b> or use them as <b>drafts</b>.</p>",
+    "wikis": "<h>Wikis</h><img/><p>Click to open the <b>wikis</b> panel. Here you can <b>add</b>, <b>remove</b>, and <b>reorder</b> wikis.</p><p>Wikis are <b>independent</b> from the book and can be used to organize your <b>ideas</b> and <b>research</b>.</p><p>Create <i>nested sub-wikis</i> to organize information about <b>characters</b>, <b>events</b>, and <b>locations</b>. These wikis can be easily referenced within the text while writing, so feel free to experiment with their <i>settings</i>.</p>",
+    "ignore": "<h>Ignore</h><img/><p>Here you can add words to be <i>ignored during the spellchecking</i> of your texts, list them through comma separated values.</p>",
+    "layoutToolbar": "<h>Layout Toolbar</h><img/><p>Here you can <b>change the layout</b> of your working area.</p><p>It's not connected to your texts or wikis (so <b>don't be afraid</b> to experiment), it's just the way how you display working area.</p><p>You also can use Presets menu on the top to change layout fast.</p>"
+  }
+}

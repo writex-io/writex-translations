@@ -1,14 +1,17 @@
 {
   "themes": {
+    "tooltip": "цветовые темы",
     "light": "Светлый",
     "dark": "Темный",
     "high-contrast": "Контрастный"
   },
   "languages": {
+    "tooltip": "языки",
     "en": "English",
     "ru": "Русский"
   },
   "user": {
+    "tooltip": "аккаунт",
     "account": "Аккаунт и Профайл",
     "logout": "Выход",
     "feedback": "Отзыв и Поддержка"

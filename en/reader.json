@@ -1,0 +1,91 @@
+{
+  "helmetTitle": "Reader {{name}}",
+  "settings": {
+    "view": {
+      "tooltip": "view settings",
+      "hyphenation": "Hyphenation",
+      "align": "Text alignment",
+      "fullscreen": "fullscreen",
+      "columns": "Columns",
+      "font": "Font",
+      "speed": "Reading speed",
+      "fonts": {
+        "garamond": "Garamond",
+        "utopia": "Utopia",
+        "minion": "Minion Pro"
+      }
+    }
+  },
+  "text": {
+    "error": {
+        "title": "Don't exist or not available",
+        "message": "This title might not exist or not available for you. Author can choose who can read it. Please reach out to the author for more information."
+    }
+  },
+  "imageViewer": {
+    "close": "click anywhere to close"
+  },
+  "chapters": {
+    "title": "Chapters",
+    "tooltip": "chapters"
+  },
+  "wikis": {
+    "title": "Wikis",
+    "tooltip": "wikis"
+  },
+  "viewport": {
+    "resizing": "adjusting the content",
+    "changingActiveChapter": "changing active chapter"
+  },
+  "statistics": {
+    "tooltip": "statistics",
+    "divider": "statistics of",
+    "timeline": "Progress timeline in %",
+    "dayOverDay": "Progress day over day in %",
+    "bookmarking": "Making bookmarks",
+    "noting": "Making notes",
+    "dateRangePlaceholder": "All dates",
+    "chaptersRoot": "The root of chapters",
+    "subChapters": "all it's sub-chapters",
+    "signInToContinue": "Progress will not be saved if you are not signed in."
+  },
+  "books": {
+    "headerReading": "Reading",
+    "headerSharedWithMe": "Shared with me",
+    "headerMyBooks": "My books",
+    "updateTime": "{{updateTime}} ago",
+    "updateTimeMyBooks": "{{updateTime}} ago",
+    "readTime": "{{readTime}} ago",
+    "readingBooksEmpty": "You didn't start to read any book yet. It will appear here when you start reading.",
+    "myBooksEmpty": "You didn't create any book yet. It will appear here when you write one."
+  },
+  "header": {
+    "reader": "Reader",
+    "editor": "Editor"
+  },
+  "share": {
+    "tooltip": "share",
+    "twitterMine": "{{bookName}} – my book is now published on Writex.io! Check it out at {{url}}. Write books and articles at Writex.io, and share your passion with the world. It's time to let your words shine ✨",
+    "facebookMine": "{{bookName}} – my book is now published on Writex.io! Check it out at {{url}}. Write books and articles at Writex.io, and share your passion with the world. It's time to let your words shine ✨",
+    "twitter": "{{bookName}} – reading on Writex.io! Check it out at {{url}}. Write books and articles at Writex.io, and share your passion with the world. It's time to let your words shine ✨",
+    "facebook": "{{bookName}} – reading on Writex.io! Check it out at {{url}}. Write books and articles at Writex.io, and share your passion with the world. It's time to let your words shine ✨"
+  },
+  "quotes": {
+    "tooltip": "quotes",
+    "modal": {
+        "title": "Quotes"
+    },
+    "list": {
+      "empty": "No quotes yet. You can add one by selecting a text and clicking on the quote color button.",
+      "item": {
+        "quoted": "quoted",
+        "dateAgo": "{{date}} ago",
+        "delete": "delete",
+        "share": "share",
+        "showInTheBook": "show in the book",
+        "shareOnFacebook": "Share on Facebook",
+        "shareOnTwitter": "Share on Twitter"
+      }
+    }
+  }
+}

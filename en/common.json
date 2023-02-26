@@ -1,14 +1,17 @@
 {
   "themes": {
+    "tooltip": "themes",
     "light": "Light",
     "dark": "Dark",
     "high-contrast": "High contrast"
   },
   "languages": {
+    "tooltip": "languages",
     "en": "English",
     "ru": "Русский"
   },
   "user": {
+    "tooltip": "account",
     "account": "Account & Profile",
     "logout": "Logout",
     "feedback": "Bug report or feedback"
