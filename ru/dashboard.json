@@ -22,6 +22,7 @@
   },
   "oldBooks": {
     "convertButton": "В новый формат",
+    "convertShortButton": "Конвертировать",
     "converting": "конвертируем",
     "removeButton": "нажмите еще раз"
   },

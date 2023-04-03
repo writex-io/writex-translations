@@ -14,7 +14,9 @@
     "tooltip": "account",
     "account": "Account & Profile",
     "logout": "Logout",
-    "feedback": "Bug report or feedback"
+    "feedback": "Bug report or feedback",
+    "error": "Oops. Try to reload.",
+    "sign-in": "Sign in"
   },
   "bugReport": {
     "title": "Bug report or feedback",
@@ -51,7 +53,9 @@
         "save": "Connect",
         "saved": "Integration with Medium was successfully established.",
         "cancel": "Cancel",
-        "tokenPlaceholder": "Paste integration token here"
+        "tokenPlaceholder": "Paste integration token here",
+        "error": "Error.",
+        "errorDescription": "Something went wrong. Please, check if you copied full Medium Access token. If yes, please try again or report a bug."
       }
     }
   }

@@ -14,7 +14,9 @@
     "tooltip": "аккаунт",
     "account": "Аккаунт и Профайл",
     "logout": "Выход",
-    "feedback": "Отзыв и Поддержка"
+    "feedback": "Отзыв и Поддержка",
+    "error": "Оой. Перезагрузите.",
+    "sign-in": "Войти"
   },
   "bugReport": {
     "title": "Отзыв и Поддержка",
@@ -51,7 +53,9 @@
         "save": "Интегрировать",
         "saved": "Интеграция с Medium аккаунтом прошла успешно.",
         "cancel": "Отмена",
-        "tokenPlaceholder": "Вставьте integration token"
+        "tokenPlaceholder": "Вставьте integration token",
+        "error": "Ошибка.",
+        "errorDescription": "Убедитесь, что вы вставили правильный Integration Token. Если да, то попробуйте еще раз или отправьте отчет об ошибке."
       }
     }
   }

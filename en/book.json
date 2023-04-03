@@ -8,6 +8,9 @@
       }
     }
   },
+  "errors": {
+    "noAccess": "Do not exist, or you don't have an access."
+  },
   "modals": {
     "changeCover": {
       "header": "Change cover",
@@ -16,8 +19,8 @@
       "buttonSave": "Save"
     },
     "bookRemove": {
-      "header": "Remove {{bookName}}?",
-      "text": "Once removed {{bookName}} can't be restored. This is forever! Are you sure you want to proceed?",
+      "header": "Remove \"{{bookName}}\"?",
+      "text": "Once removed \"{{bookName}}\" can't be restored. This is forever! Are you sure you want to proceed?",
       "buttonRemove": "Remove",
       "buttonCancel": "Cancel"
     },
@@ -48,6 +51,7 @@
         "divider": "Wikis will be published after main text",
         "buttonPublish": "Publish",
         "buttonCancel": "Cancel",
+        "buttonClose": "Close",
         "published": "It has been published to Medium. Click on the button below to open an article.",
         "publishedButton": "Open article"
       },
@@ -57,6 +61,7 @@
         "divider": "Wikis will be published after main text",
         "buttonPublish": "Generate",
         "buttonCancel": "Cancel",
+        "buttonClose": "Close",
         "published": "EPUB file was generated. Click on the button below to save it.",
         "publishedButton": "Save EPUB"
       },
@@ -78,8 +83,8 @@
     },
     "ai": {
       "biases": {
-        "header": "AI limitations and biases",
-        "text": "<p>GPT-Neo was trained as an autoregressive language model. This means that its core functionality is taking a string of text and predicting the next token. While language models are widely used for tasks other than this, there are a lot of unknowns with this work.</p><p>GPT-Neo was trained on the Pile, a dataset known to contain profanity, lewd, and otherwise abrasive language. Depending on your usecase GPT-Neo may produce socially unacceptable text. See Sections 5 and 6 of the Pile paper for a more detailed analysis of the biases in the Pile.</p><p>As with all language models, it is hard to predict in advance how GPT-Neo will respond to particular prompts and offensive content may occur without warning. We recommend having a human curate or filter the outputs before releasing them, both to censor undesirable content and to improve the quality of the results.</p>"
+        "header": "The Perils of Plagiarizing AI-Generated Content",
+        "text": "<p>In the age of AI-driven content creation, it is important to be aware of the ethical boundaries when using AI-generated text. Using AI-generated prompts as your own content without proper attribution is a form of plagiarism and can have serious consequences.</p><p>Firstly, passing off AI-generated text as your own work undermines your credibility as a writer or content creator. Authenticity is highly valued, and building trust with your audience is crucial for success. By using AI-generated text without proper credit, you jeopardize your reputation and risk losing the trust of your audience.</p><p>Secondly, AI-generated content may not always be accurate or reliable. AI models, such as GPT-4, are trained on vast amounts of data from the internet, which can contain outdated, biased, or incorrect information. By using AI-generated text without proper vetting or fact-checking, you risk perpetuating inaccuracies and spreading misinformation.</p><p>Lastly, using AI-generated content without attribution can result in legal consequences. As AI-generated content becomes more prevalent, copyright and intellectual property laws are adapting to encompass these new technologies. Failing to properly attribute the source of AI-generated text could lead to potential lawsuits or other legal ramifications.</p><p>In conclusion, while AI-generated content can be an invaluable tool for writers and content creators, it is crucial to use it responsibly and ethically. Always attribute the source of AI-generated text, fact-check the information, and remember to maintain your own unique voice and perspective.</p>"
       }
     }
   },
@@ -212,6 +217,7 @@
       "textJustifyFullWidth": "full width",
       "textJustifyNormal": "normal",
       "language": "Spellcheck language",
+      "languageError": "Couldn't load. Try again later.",
       "statistics": "Statistics",
       "contributor": "Contributor",
       "contributorMe": "Me",
@@ -251,13 +257,18 @@
       },
       "comments": {
         "name": "Comments",
-        "description": "Comments to the text. List of all comments to the text."
+        "description": "Comments to the text. List of all comments to the text.",
+        "empty": "No comments yet. Be the first to comment!"
       },
       "spellchecks": {
         "name": "Spellcheck",
         "description": "List of all found issues in your text."
       },
       "wikis": {
+        "name": "Wikis",
+        "description": "List of all wikis in your text."
+      },
+      "tree-wiki": {
         "name": "Wikis",
         "description": "List of all wikis in your text."
       },
@@ -296,7 +307,7 @@
     },
     "menu": {
       "tooltip": {
-        "addToDictionary": "ignore in this text",
+        "addToDictionary": "add to dictionary",
         "addComment": "add comment"
       }
     }
@@ -310,17 +321,17 @@
     },
     "toolbar": {
       "ignoreButton": {
-        "ignore": "Ignore",
-        "inThisText": "in this text"
+        "ignore": "Add",
+        "inThisText": "to dictionary"
       }
     }
   },
   "dictionary": {
     "toolbar": {
-      "tooltip": "ignore in this text"
+      "tooltip": "dictionary"
     },
     "list": {
-      "header": "Ignore in this text"
+      "header": "Dictionary"
     },
     "item": {
       "empty": "Enter words through comma, that will be ignored by spellchecker..."
@@ -355,7 +366,7 @@
     "toolbar": {
       "tooltip": "ask AI",
       "inputPlaceholder": "What do you want to know?",
-      "helpText": "It's a beta version of AI. There are limitations and biases in the data. Please <a>read more here</a>.",
+      "helpText": "It's a beta version of AI. Please <a>read more here</a> about limitations and biases.",
       "longLoading": "Takes longer than usual. Please wait or try later.",
       "error": "🤖 Sorry, couldn't get an answer. Please try again later."
     },
@@ -363,11 +374,29 @@
       "copyAndClose": "copy and close",
       "insert": "insert in text",
       "generatedByAi": "---Generated by AI---",
+      "prompt": "What to do with selected text?",
       "tooltip": {
         "loading": "thinking...",
-        "write": "AI write for me",
+        "write": "AI assist",
         "error": "🤖 Sorry, please try again later.",
         "languageNotSupported": "🤖 doesn't support chosen language yet"
+      }
+    },
+    "global": {
+      "context": {
+        "clear": "clear context"
+      },
+      "prompt": {
+        "error": "🤖 please try again later",
+        "placeholder": {
+          "withContext": "What to do with selected text?",
+          "withoutContext": "How can I help?"
+        }
+      },
+      "answers": {
+        "copy": "copy",
+        "copied": "copied",
+        "close": "close"
       }
     }
   }

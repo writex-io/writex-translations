@@ -22,6 +22,7 @@
   },
   "oldBooks": {
     "convertButton": "Convert to a new format",
+    "convertShortButton": "Convert",
     "converting": "converting",
     "removeButton": "click again to remove"
   },
