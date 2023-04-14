@@ -13,6 +13,10 @@
       "integrations": {
         "title": "Integrations | {{name}}",
         "description": "Integrations with third-party services."
+      },
+      "subscriptions": {
+        "title": "Subscriptions | {{name}}",
+        "description": "Manage your subscriptions and payments."
       }
     }
   },
@@ -58,5 +62,11 @@
     "bioHint": "Will be open to other members, when the sharing functionality will be implemented.",
     "save": "Save",
     "saved": "Saved"
+  },
+  "subscriptions": {
+    "name": "Subscriptions",
+    "header": "Subscriptions",
+    "description": "Manage your subscriptions, download invoices.",
+    "currentPlan": "Current plan"
   }
 }

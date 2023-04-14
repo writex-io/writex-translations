@@ -1,0 +1,85 @@
+{
+  "global": {
+    "helmetTitles": {
+      "subscription-required": {
+        "title": "Abonnement | ",
+        "description": "Ein Abonnement ist erforderlich."
+      },
+      "cancel": {
+        "title": "Abonnement kündigen | ",
+        "description": "Kündigen Sie Ihr Abonnement."
+      },
+      "subscriptions": {
+        "title": "Abonnements | ",
+        "description": "Wählen Sie Ihr Abonnement."
+      },
+      "success": {
+        "title": "Erfolg | ",
+        "description": "Erfolgreich abonniert."
+      }
+    }
+  },
+  "plan": {
+    "name": {
+      "basic": "Basic",
+      "advanced": "Fortschrittlich",
+      "enterprise": "Unternehmen"
+    },
+    "basic": "Entfesseln Sie Ihr volles Schreibpotenzial, intelligent und effektiv.",
+    "advanced": "Lassen Sie KI Ihr Schreiben auf ein neues Niveau bringen. ",
+    "enterprise": "Wenn Sie ein Unternehmen sind, das daran interessiert ist, Writex.io zu verwenden, werden wir mit Ihnen zusammenarbeiten, um die beste Lösung zu finden.",
+    "active": "Aktiv"
+  },
+  "interval": {
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "month": "Monat",
+    "year": "Jahr"
+  },
+  "buttons": {
+    "startTrial": "Testversion starten",
+    "contact": "Kontakt",
+    "changePlan": "Plan ändern",
+    "dashboard": "Zum Armaturenbrett"
+  },
+  "text": {
+    "included": "Im Editor enthalten",
+    "includedReader": "Im Reader enthalten",
+    "hey": "Hey-hey",
+    "save": "Speichern",
+    "monthly": "Monatliche Bezahlung",
+    "yearly": "Jährliche Zahlung",
+    "talk": "Lass uns reden",
+    "discuss": "Lassen Sie uns besprechen, wie wir helfen können",
+    "fee": "Unser Ziel bei Writex.io ist es, Ihnen dabei zu helfen, Ihr wahres Schreibpotenzial freizusetzen. ",
+    "trial": "Die Testphase ist komplett kostenlos und kann jederzeit gekündigt werden.",
+    "consider": "Wir wissen es zu schätzen, dass Sie ein Konto erstellt haben, aber um es zu verwenden, ist ein Abonnement gegen eine geringe Gebühr erforderlich. ",
+    "gotit": "Habe es"
+  },
+  "features": {
+    "header": "Nur einige der Funktionen",
+    "number-of-books": "Anzahl der Bücher",
+    "number-of-wikis": "Anzahl Wikis",
+    "number-of-collaborators": "Anzahl der Mitarbeiter",
+    "cloud-sync": "Cloud-Synchronisierung",
+    "comments": "Kommentare",
+    "publishing-writex": "Veröffentlichung auf Writex.io",
+    "publishing-medium": "Veröffentlichung auf Medium",
+    "publishing-epub": "Als EPUB exportieren",
+    "ai-copilot": "AI Copilot basierend auf ChatGPT-Technologie",
+    "backup": "Automatische Backups und Verlauf",
+    "writing-analytics": "Analytik schreiben",
+    "reading-analytics": "Analytik lesen",
+    "sso": "Einmalige Anmeldung (SSO)",
+    "custom": "Benutzerdefinierte Funktionen, die nur für Sie entwickelt wurden",
+    "reader-books": "Bücher, die man lesen kann",
+    "reader-quotes": "Zitate, die Sie erstellen können",
+    "reader-statistics": "Ihre Lesestatistiken und -trends",
+    "ai-copilot-description": "Leistungsstarkes Tool, mit dem Sie schneller schreiben können. "
+  },
+  "success": {
+    "thanks": "Danke",
+    "text": "<b>Du bist der beste</b>!<br>Ihre Unterstützung wird es uns ermöglichen, an Writex.io zu arbeiten und es jeden Tag besser zu machen.",
+    "goToMainPage": "Fang an zu schreiben"
+  }
+}

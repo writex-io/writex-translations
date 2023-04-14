@@ -1,0 +1,15 @@
+{
+  "tooltip": {
+    "back": "Zurück",
+    "close": "Schließen",
+    "next": "Nächste"
+  },
+  "book": {
+    "workingLayouts": "<h>Voreinstellungen</h><img/><p>Hier finden Sie eine <b>Sammlung von Voreinstellungen</b> um das Erscheinungsbild Ihres Arbeitsbereichs zu ändern.</p><p>Experimentieren Sie und wechseln Sie während Ihrer Arbeit zwischen ihnen.</p>",
+    "settings": "<h>Einstellungen</h><img/><p>Klicken Sie hier, um die Bucheinstellungen zu öffnen.  <b>Buchname</b>, <b>Beschreibung</b>, Und <b>Abdeckung</b>.</p>",
+    "chapters": "<h>Kapitel</h><img/><p>Klicken Sie hier, um die zu öffnen <b>Kapitel</b> Tafel.  <b>hinzufügen</b>, <b>entfernen</b>, Und <b>neu bestellen</b> Kapitel.</p><p>Verschachtelt erstellen <i>Unterkapitel</i> für verschiedene Zwecke: schreiben <b>Nebengeschichten</b>, hinzufügen <b>Anmerkungen</b> oder verwenden Sie sie als <b>Entwürfe</b>.</p>",
+    "wikis": "<h>Wikis</h><img/><p>Klicken Sie hier, um die zu öffnen <b>Wikis</b> Tafel.  <b>hinzufügen</b>, <b>entfernen</b>, Und <b>neu bestellen</b> Wikis.</p><p>Wikis sind <b>unabhängig</b> aus dem Buch und kann verwendet werden, um Ihre zu organisieren <b>Ideen</b> Und <b>Forschung</b>.</p><p>Erstellen <i>verschachtelte Unterwikis</i> Informationen zu organisieren <b>Figuren</b>, <b>Veranstaltungen</b>, Und <b>Standorte</b>.  <i>Einstellungen</i>.</p>",
+    "ignore": "<h>Ignorieren</h><img/><p>Hier können Sie Wörter hinzufügen <i>bei der Rechtschreibprüfung ignoriert</i> Ihrer Texte, listen Sie sie durch kommagetrennte Werte auf.</p>",
+    "layoutToolbar": "<h>Layout-Symbolleiste</h><img/><p>Hier kannst du <b>die Anordnung ändern</b> Ihres Arbeitsbereichs.</p><p>Es ist nicht mit Ihren Texten oder Wikis verbunden (so <b>hab keine angst</b> zu experimentieren), es ist nur die Art und Weise, wie Sie den Arbeitsbereich anzeigen.</p><p>Sie können auch das Menü Voreinstellungen oben verwenden, um das Layout schnell zu ändern.</p>"
+  }
+}

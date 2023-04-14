@@ -1,0 +1,91 @@
+{
+  "helmetTitle": "читач {{name}}",
+  "settings": {
+    "view": {
+      "tooltip": "перегляд налаштувань",
+      "hyphenation": "Перенесення слів",
+      "align": "Вирівнювання тексту",
+      "fullscreen": "повноекранний",
+      "columns": "Стовпці",
+      "font": "Шрифт",
+      "speed": "Швидкість читання",
+      "fonts": {
+        "garamond": "Гарамонд",
+        "utopia": "Утопія",
+        "minion": "Minion Pro"
+      }
+    }
+  },
+  "text": {
+    "error": {
+      "title": "Не існує або недоступний",
+      "message": "Ця назва може не існувати або недоступна для вас. "
+    }
+  },
+  "imageViewer": {
+    "close": "натисніть будь-де, щоб закрити"
+  },
+  "chapters": {
+    "title": "Розділи",
+    "tooltip": "глави"
+  },
+  "wikis": {
+    "title": "Вікі",
+    "tooltip": "вікі"
+  },
+  "viewport": {
+    "resizing": "коригування змісту",
+    "changingActiveChapter": "зміна активного розділу"
+  },
+  "statistics": {
+    "tooltip": "статистика",
+    "divider": "статистика",
+    "timeline": "Хронологія прогресу в %",
+    "dayOverDay": "Прогрес день за день у %",
+    "bookmarking": "Виготовлення закладок",
+    "noting": "Складання нотаток",
+    "dateRangePlaceholder": "Всі дати",
+    "chaptersRoot": "Корінь глав",
+    "subChapters": "всі його підрозділи",
+    "signInToContinue": "Прогрес не буде збережено, якщо ви не ввійшли в систему."
+  },
+  "books": {
+    "headerReading": "Читання",
+    "headerSharedWithMe": "Поділився зі мною",
+    "headerMyBooks": "Мої книги",
+    "updateTime": "{{updateTime}} тому",
+    "updateTimeMyBooks": "{{updateTime}} тому",
+    "readTime": "{{readTime}} тому",
+    "readingBooksEmpty": "Ви ще не почали читати жодної книги. ",
+    "myBooksEmpty": "Ви ще не створили жодної книги. "
+  },
+  "header": {
+    "reader": "читач",
+    "editor": "редактор"
+  },
+  "share": {
+    "tooltip": "частка",
+    "twitterMine": "{{bookName}} – моя книга тепер опублікована на Writex.io!  {{url}}. ",
+    "facebookMine": "{{bookName}} – моя книга тепер опублікована на Writex.io!  {{url}}. ",
+    "twitter": "{{bookName}} – читання на Writex.io!  {{url}}. ",
+    "facebook": "{{bookName}} – читання на Writex.io!  {{url}}. "
+  },
+  "quotes": {
+    "tooltip": "котирування",
+    "modal": {
+      "title": "Цитати"
+    },
+    "list": {
+      "empty": "Котирувань ще немає. ",
+      "item": {
+        "quoted": "процитований",
+        "dateAgo": "{{date}} тому",
+        "delete": "видалити",
+        "share": "частка",
+        "showInTheBook": "показати в книзі",
+        "shareOnFacebook": "Поділіться на Facebook",
+        "shareOnTwitter": "Поділіться в Twitter"
+      }
+    }
+  }
+}

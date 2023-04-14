@@ -1,0 +1,91 @@
+{
+  "helmetTitle": "Leser {{name}}",
+  "settings": {
+    "view": {
+      "tooltip": "Einstellungen anzeigen",
+      "hyphenation": "Silbentrennung",
+      "align": "Textausrichtung",
+      "fullscreen": "Vollbild",
+      "columns": "Säulen",
+      "font": "Schriftart",
+      "speed": "Lesegeschwindigkeit",
+      "fonts": {
+        "garamond": "Garamond",
+        "utopia": "Utopie",
+        "minion": "Minion Pro"
+      }
+    }
+  },
+  "text": {
+    "error": {
+      "title": "Nicht vorhanden oder nicht verfügbar",
+      "message": "Dieser Titel ist möglicherweise nicht vorhanden oder für Sie nicht verfügbar. "
+    }
+  },
+  "imageViewer": {
+    "close": "Klicken Sie zum Schließen auf eine beliebige Stelle"
+  },
+  "chapters": {
+    "title": "Kapitel",
+    "tooltip": "Kapitel"
+  },
+  "wikis": {
+    "title": "Wikis",
+    "tooltip": "Wikis"
+  },
+  "viewport": {
+    "resizing": "Anpassung der Inhalte",
+    "changingActiveChapter": "Ändern des aktiven Kapitels"
+  },
+  "statistics": {
+    "tooltip": "Statistiken",
+    "divider": "Statistiken von",
+    "timeline": "Fortschrittszeitachse in %",
+    "dayOverDay": "Fortschritt von Tag zu Tag in %",
+    "bookmarking": "Lesezeichen machen",
+    "noting": "Notizen machen",
+    "dateRangePlaceholder": "Alle Termine",
+    "chaptersRoot": "Die Wurzel der Kapitel",
+    "subChapters": "alle seine Unterkapitel",
+    "signInToContinue": "Der Fortschritt wird nicht gespeichert, wenn Sie nicht angemeldet sind."
+  },
+  "books": {
+    "headerReading": "Lektüre",
+    "headerSharedWithMe": "Mit mir geteilt",
+    "headerMyBooks": "Meine Bücher",
+    "updateTime": "{{updateTime}} vor",
+    "updateTimeMyBooks": "{{updateTime}} vor",
+    "readTime": "{{readTime}} vor",
+    "readingBooksEmpty": "Du hast noch kein Buch angefangen zu lesen. ",
+    "myBooksEmpty": "Sie haben noch kein Buch erstellt. "
+  },
+  "header": {
+    "reader": "Leser",
+    "editor": "Editor"
+  },
+  "share": {
+    "tooltip": "Aktie",
+    "twitterMine": "{{bookName}} – mein Buch ist jetzt auf Writex.io erschienen!  {{url}}. ",
+    "facebookMine": "{{bookName}} – mein Buch ist jetzt auf Writex.io erschienen!  {{url}}. ",
+    "twitter": "{{bookName}} – Lesen auf Writex.io!  {{url}}. ",
+    "facebook": "{{bookName}} – Lesen auf Writex.io!  {{url}}. "
+  },
+  "quotes": {
+    "tooltip": "Zitate",
+    "modal": {
+      "title": "Zitate"
+    },
+    "list": {
+      "empty": "Noch keine Zitate. ",
+      "item": {
+        "quoted": "zitiert",
+        "dateAgo": "{{date}} vor",
+        "delete": "löschen",
+        "share": "Aktie",
+        "showInTheBook": "im Buch zeigen",
+        "shareOnFacebook": "Auf Facebook teilen",
+        "shareOnTwitter": "Auf Twitter teilen"
+      }
+    }
+  }
+}

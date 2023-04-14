@@ -1,0 +1,411 @@
+{
+  "global": {
+    "helmetTitles": {
+      "book": {
+        "titleGeneric": "Buch",
+        "title": "{{name}} | ",
+        "description": "Buch oder Artikel."
+      }
+    }
+  },
+  "errors": {
+    "noAccess": "Existieren nicht, oder Sie haben keinen Zugriff."
+  },
+  "modals": {
+    "changeCover": {
+      "header": "Abdeckung wechseln",
+      "buttonGenerate": "Generieren",
+      "buttonUpload": "Hochladen",
+      "buttonSave": "Speichern"
+    },
+    "bookRemove": {
+      "header": "Entfernen \"{{bookName}}\"?",
+      "text": "Einmal entfernt \"{{bookName}}\" kann nicht wiederhergestellt werden. Dies ist für immer! Möchten Sie wirklich fortfahren?",
+      "buttonRemove": "Entfernen",
+      "buttonCancel": "Stornieren"
+    },
+    "bookSettings": {
+      "header": "Einstellungen von {{bookName}}",
+      "inputLabelName": "Name",
+      "inputLabelNamePlaceholder": "Ohne Titel",
+      "inputLabelDescription": "Beschreibung",
+      "author": "Autor",
+      "createTime": "Erstellt",
+      "changeTime": "Geändert",
+      "textBack": "vor",
+      "buttonSave": "Speichern",
+      "changeCoverButton": "Abdeckung wechseln",
+      "changeCoverTitle": "Abdeckung wechseln",
+      "buttonClose": "Schließen"
+    },
+    "widgets": {
+      "buttonClose": "Schließen"
+    },
+    "share": {
+      "title": "Gemeinsame Bearbeitung zulassen"
+    },
+    "publishing": {
+      "medium": {
+        "header": "Veröffentlichung auf Medium",
+        "text": "Sie sind dabei, Ihren Artikel auf Medium (im Entwurfsmodus) zu veröffentlichen. ",
+        "divider": "Wikis werden nach dem Haupttext veröffentlicht",
+        "buttonPublish": "Veröffentlichen",
+        "buttonCancel": "Stornieren",
+        "buttonClose": "Schließen",
+        "published": "Es wurde auf Medium veröffentlicht. ",
+        "publishedButton": "Artikel öffnen"
+      },
+      "epub": {
+        "header": "Als EPUB speichern",
+        "text": "Sie sind dabei, EPUB zu generieren. ",
+        "divider": "Wikis werden nach dem Haupttext veröffentlicht",
+        "buttonPublish": "Generieren",
+        "buttonCancel": "Stornieren",
+        "buttonClose": "Schließen",
+        "published": "EPUB-Datei wurde generiert. ",
+        "publishedButton": "EPUB speichern"
+      },
+      "writex": {
+        "header": "Veröffentlichen Sie auf Writex.io, teilen Sie einen Link zum Reader",
+        "openReader": "im Reader öffnen",
+        "copyLink": "Reader-Link kopieren",
+        "copiedLink": "kopiert",
+        "readers": {
+          "all": "Alle Leser",
+          "allHint": "Alle Leser mit dem Link",
+          "allSubscribers": "Alle Abonnenten [derzeit nicht verfügbar]",
+          "allSubscribersHint": "Nur Ihre Abonnenten",
+          "paidSubscribers": "Bezahlte Abonnenten [derzeit nicht verfügbar]",
+          "paidSubscribersHint": "Ihre Abonnenten, die für dieses Buch bezahlt haben"
+        },
+        "dividerUsers": "Für bestimmte Benutzer veröffentlichen"
+      }
+    },
+    "ai": {
+      "biases": {
+        "header": "Die Gefahren des Plagiierens von KI-generierten Inhalten",
+        "text": "<p>Im Zeitalter der KI-gesteuerten Inhaltserstellung ist es wichtig, sich der ethischen Grenzen bei der Verwendung von KI-generiertem Text bewusst zu sein. </p><p>Erstens untergräbt das Ausgeben von KI-generiertem Text als Ihre eigene Arbeit Ihre Glaubwürdigkeit als Autor oder Ersteller von Inhalten. </p><p>Zweitens sind KI-generierte Inhalte möglicherweise nicht immer genau oder zuverlässig. </p><p>Schließlich kann die Verwendung von KI-generierten Inhalten ohne Namensnennung rechtliche Konsequenzen nach sich ziehen. </p><p>Zusammenfassend lässt sich sagen, dass KI-generierte Inhalte zwar ein unschätzbares Werkzeug für Autoren und Ersteller von Inhalten sein können, es aber entscheidend ist, sie verantwortungsbewusst und ethisch zu verwenden. </p>"
+      }
+    }
+  },
+  "untitled": "Ohne Titel",
+  "settings": {
+    "tooltip": "Einstellungen bearbeiten",
+    "noAccess": "Sie sind kein Autor"
+  },
+  "layout": {
+    "tooltip": "Arbeitslayout bearbeiten",
+    "focusModeTooltip": "Fokus Modus",
+    "tooSmall": "Zu klein, um etwas zu sehen.",
+    "toolbar": {
+      "widgetSettings": "Einstellungen anzeigen",
+      "widgetStatisticsSettings": "Statistikeinstellungen",
+      "expandLayoutActions": "mehr Layouteinstellungen",
+      "splitHorizontally": "horizontal geteilt",
+      "splitVertically": "vertikal teilen",
+      "removeWidget": "Ansicht entfernen",
+      "removeLayout": "Layout entfernen"
+    }
+  },
+  "chapters": {
+    "toolbar": {
+      "tooltip": "Kapitel",
+      "tooltipAddSubchapter": "Unterkapitel hinzufügen",
+      "tooltipRemove": "Kapitel entfernen"
+    },
+    "list": {
+      "header": "Kapitel",
+      "navigate": "Navigieren",
+      "edit": "Bearbeiten",
+      "sort": "Sortieren",
+      "empty": "Es wurden noch keine Kapitel erstellt. ",
+      "create": "neues Kapitel",
+      "createIn": "In",
+      "clickToRemove": "Klicken Sie erneut, um das Kapitel zu entfernen",
+      "checkAllButton": "alle überprüfen",
+      "uncheckAllButton": "alle deaktivieren"
+    },
+    "item": {
+      "empty": "Geben Sie den Kapitelnamen ein..."
+    }
+  },
+  "versions": {
+    "toolbar": {
+      "tooltip": "Textversionen"
+    },
+    "list": {
+      "header": "Textversionen",
+      "activate": "aktivieren Sie",
+      "edit": "Bearbeiten",
+      "sort": "Sortieren",
+      "create": "neue Textversion",
+      "empty": "Es wurden noch keine Textversionen erstellt. ",
+      "clickToRemove": "Klicken Sie erneut, um sie zu entfernen"
+    },
+    "item": {
+      "empty": "Beginnen Sie hier mit der Eingabe Ihres Kapiteltextes..."
+    }
+  },
+  "wikis": {
+    "toolbar": {
+      "tooltip": "Wikis",
+      "tooltipAddSubWiki": "Sub-Wiki hinzufügen",
+      "tooltipRemove": "Wiki entfernen"
+    },
+    "item": {
+      "placeholder": "Beginnen Sie hier mit der Beschreibung Ihres Wikis...",
+      "options": {
+        "divider": "Optionen",
+        "search": "Optionen suchen und markieren",
+        "categories": "Kategorien (durch Kommas getrennt)",
+        "toMark": "Wikis in Texten markieren",
+        "dividerText": "Wiki-Text",
+        "icon": "Symbol",
+        "isShowIcon": "Symbol anzeigen",
+        "isShowColor": "Farbe zeigen",
+        "color": "Farbe"
+      },
+      "name": {
+        "empty": "Geben Sie alle möglichen Wiki-Namen und -Einträge im Text durch Komma ein ..."
+      },
+      "categories": {
+        "empty": "Kategoriennamen eingeben, zu denen dieses Wiki gehört..."
+      },
+      "search": {
+        "fuzziness": {
+          "0": "Absolute Übereinstimmung",
+          "1": "Rechtschreibfehler sind erlaubt",
+          "2": "Ein bisschen Unschärfe",
+          "3": "Unschärfe verrückt",
+          "4": "Du weißt nicht, was du tust"
+        }
+      }
+    },
+    "list": {
+      "header": "Wikis",
+      "empty": "Noch keine Wikis hier. ",
+      "create": "Wiki erstellen",
+      "createIn": "In",
+      "clickToRemove": "Klicken Sie erneut, um Wiki zu entfernen",
+      "categoriesInfo": "Alle Wikis, zum Erweitern auf Wiki klicken",
+      "clearSelection": "klare Auswahl"
+    },
+    "tree": {
+      "header": "Wikis und Kategorien",
+      "info": "Hier werden alle Kategorien und erstellten Wikis angezeigt",
+      "create": "erstellen"
+    }
+  },
+  "wiki": {
+    "delete": "Wiki entfernen",
+    "close": "schließen",
+    "item": {
+      "empty": "Wiki erscheint hier, wenn Sie im Text auf markiertes Wiki klicken."
+    }
+  },
+  "widgets": {
+    "notAttached": "Drücken Sie die Taste und wählen Sie eine Ansicht aus, die Sie hier sehen möchten.",
+    "choosePreset": "Wählen Sie eine Layout-Voreinstellung aus der Liste aus",
+    "attachToLayoutButton": "Ansicht wählen",
+    "settings": {
+      "main": "Einstellungen anzeigen",
+      "version": "Textversion",
+      "fontFamily": "Schriftfamilie",
+      "viewCategory": "Sicht",
+      "fontSize": "Schriftgröße",
+      "textJustify": "Texte begründen",
+      "textJustifyFullWidth": "Gesamtbreite",
+      "textJustifyNormal": "normal",
+      "language": "Sprache der Rechtschreibprüfung",
+      "languageError": "Konnte nicht geladen werden. ",
+      "statistics": "Statistiken",
+      "contributor": "Mitwirkender",
+      "contributorMe": "Mich",
+      "contributorAll": "Alle",
+      "showGraphs": "Diagramme anzeigen",
+      "graphsAreShown": "Diagramme sind sichtbar",
+      "graphsAreHidden": "Diagramme sind ausgeblendet",
+      "datesRange": "Datumsbereich",
+      "statisticsAggregationLabel": "Visualisierung von Statistiken",
+      "subscriptionAdvancedRequired": "Erweitertes Abonnement ist erforderlich. <a>Pläne vergleichen</a> und wählen Sie eine aus, die am besten zu Ihnen passt.",
+      "intervals": {
+        "today": "Heute",
+        "yesterday": "gestern",
+        "week": "Woche",
+        "month": "Monat"
+      },
+      "statisticsAggregation": {
+        "hours": "stündlich",
+        "minutes": "minutiös",
+        "days": "täglich",
+        "weeks": " wöchentlich",
+        "months": "monatlich",
+        "years": "jährlich"
+      },
+      "markWikis": "Wikis im Text markieren",
+      "markWikisActive": "markiert",
+      "markWikisInactive": "nicht markiert",
+      "markSpellcheck": "Rechtschreibprüfung",
+      "markSpellcheckActive": "ermöglicht",
+      "markSpellcheckInactive": "Behinderte"
+    },
+    "list": {
+      "chapters": {
+        "name": "Kapitelliste",
+        "description": "Wenn Sie ständig eine Liste der Kapitel vor Augen haben möchten, können Sie diese Ansicht verwenden."
+      },
+      "versions": {
+        "name": "Versionsliste",
+        "description": "Wenn Sie ständig eine Liste der Versionen vor Augen haben möchten (mit Hinzufügen, Bearbeiten und Entfernen), können Sie diese Ansicht verwenden."
+      },
+      "textBlocks": {
+        "name": "Text",
+        "description": "Eine Textansicht ist ein einfacher Texteditor. "
+      },
+      "comments": {
+        "name": "Kommentare",
+        "description": "Kommentare zum Text. ",
+        "empty": "Noch keine Kommentare. "
+      },
+      "spellchecks": {
+        "name": "Rechtschreibprüfung",
+        "description": "Liste aller gefundenen Probleme in Ihrem Text."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Liste aller Wikis in Ihrem Text."
+      },
+      "tree-wiki": {
+        "name": "Wikis",
+        "description": "Liste aller Wikis in Ihrem Text."
+      },
+      "wiki": {
+        "name": "Wiki",
+        "description": "Die Wiki-Ansicht zeigt die Beschreibung des ausgewählten Wikis."
+      }
+    },
+    "categories": {
+      "chapters": {
+        "name": "Kapitel"
+      },
+      "versions": {
+        "name": "Text"
+      },
+      "tools": {
+        "name": "Werkzeug"
+      },
+      "analysis": {
+        "name": "Analyse"
+      },
+      "wikis": {
+        "name": "Wikis"
+      }
+    }
+  },
+  "textBlocks": {
+    "version": {
+      "empty": "Es wurden noch keine Textversionen erstellt. ",
+      "notChosen": "Hier sollten Sie eine der Textversionen sehen. "
+    },
+    "stats": {
+      "characters": "Figuren",
+      "words": "Wörter",
+      "spellcheck": "Themen"
+    },
+    "menu": {
+      "tooltip": {
+        "addToDictionary": "Wörterbuch hinzufügen",
+        "addComment": "einen Kommentar hinzufügen"
+      }
+    }
+  },
+  "spellchecks": {
+    "list": {
+      "header": "Rechtschreibprüfung",
+      "description": "Liste aller gefundenen Probleme in Ihrem Text.",
+      "loading": "Text prüfen...",
+      "empty": "Noch keine Probleme gefunden. "
+    },
+    "toolbar": {
+      "ignoreButton": {
+        "ignore": "Hinzufügen",
+        "inThisText": "zum Wörterbuch"
+      }
+    }
+  },
+  "dictionary": {
+    "toolbar": {
+      "tooltip": "Wörterbuch"
+    },
+    "list": {
+      "header": "Wörterbuch"
+    },
+    "item": {
+      "empty": "Geben Sie Wörter durch Kommas ein, die von der Rechtschreibprüfung ignoriert werden..."
+    }
+  },
+  "share": {
+    "tooltip": "Freigabeeinstellungen ändern",
+    "button": "Aktie",
+    "notAuthor": "Sie können nicht teilen, wenn Sie kein Autor sind.",
+    "list": {
+      "error": "Entschuldigung, Zugriffsrechte konnten nicht geladen werden. ",
+      "clickToRemove": "Klicken Sie erneut, um die Person zu entfernen",
+      "empty": "Nur Sie haben einen Zugang. "
+    },
+    "userAutocomplete": {
+      "placeholder": "Leute hinzufügen",
+      "noResults": "Bitte geben Sie die vollständige E-Mail-Adresse ein. ",
+      "noMoreCollaborators": "Sie haben das Limit an Mitbearbeitern für Ihr Abonnement erreicht. <a>Pläne vergleichen</a> und wählen Sie eine aus, die am besten zu Ihnen passt."
+    },
+    "accessChangedToRestricted": "Ihr Zugriff wurde eingeschränkt. ",
+    "accessChangedToGranted": "Zugang zu einigen zusätzlichen Teilen des Buches wurde gewährt.",
+    "reload": "Neu laden"
+  },
+  "publish": {
+    "medium": "Auf Medium veröffentlichen",
+    "epub": "Als EPUB speichern",
+    "internal": "Veröffentlichen Sie auf Writex.io",
+    "internalHelper": "Veröffentlichen Sie auf Writex.io und teilen Sie den Reader-Link.",
+    "otherHelper": "Veröffentlichen Sie auf anderen Plattformen oder speichern Sie Ihre Arbeit.",
+    "tooltip": "Verlagsmenü"
+  },
+  "ai": {
+    "toolbar": {
+      "tooltip": "frag KI",
+      "inputPlaceholder": "Was möchtest du wissen?",
+      "helpText": "Es ist eine Beta-Version von AI.  <a>lesen Sie hier mehr</a> über Grenzen und Vorurteile.",
+      "longLoading": "Dauert länger als sonst. ",
+      "error": "🤖 Entschuldigung, konnte keine Antwort bekommen. "
+    },
+    "menu": {
+      "copyAndClose": "kopieren und schließen",
+      "insert": "im Text einfügen",
+      "generatedByAi": "---Erzeugt von KI---",
+      "prompt": "Was tun mit markiertem Text?",
+      "tooltip": {
+        "loading": "Denken...",
+        "write": "KI-Unterstützung",
+        "error": "🤖 Entschuldigung, bitte versuchen Sie es später noch einmal.",
+        "languageNotSupported": "🤖 unterstützt die gewählte Sprache noch nicht"
+      }
+    },
+    "global": {
+      "context": {
+        "clear": "klarer Kontext"
+      },
+      "prompt": {
+        "error": "🤖 Bitte versuche es später noch einmal",
+        "placeholder": {
+          "withContext": "Was tun mit markiertem Text?",
+          "withoutContext": "Wie kann ich helfen?"
+        }
+      },
+      "answers": {
+        "copy": "Kopieren",
+        "copied": "kopiert",
+        "close": "schließen"
+      }
+    }
+  }
+}

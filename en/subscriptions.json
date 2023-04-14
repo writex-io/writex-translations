@@ -1,0 +1,86 @@
+{
+  "global": {
+    "helmetTitles": {
+      "subscription-required": {
+        "title": "Subscription | Writex.io",
+        "description": "Subscription is required."
+      },
+      "cancel": {
+        "title": "Cancel subscription | Writex.io",
+        "description": "Cancel your subscription."
+      },
+      "subscriptions": {
+        "title": "Subscriptions | Writex.io",
+        "description": "Choose your subscription."
+      },
+      "success": {
+        "title": "Success | Writex.io",
+        "description": "Successfully subscribed."
+      }
+    }
+  },
+  "plan": {
+    "name": {
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "enterprise": "Enterprise"
+    },
+    "basic": "Unleash your full writing potential, smartly and effectively.",
+    "advanced": "Let AI bring your writing to a new level. Writing never be the same again.",
+    "enterprise": "If you're a company interested in using Writex.io, we'll work with you to find the best solution.",
+    "active": "Active"
+  },
+  "interval": {
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "month": "month",
+    "year": "year"
+  },
+  "buttons": {
+    "startTrial": "Start trial",
+    "contact": "Contact",
+    "changePlan": "Change plan",
+    "dashboard": "To dashboard"
+  },
+  "text": {
+    "included": "Included in Editor",
+    "includedReader": "Included in Reader",
+    "hey": "Hey-hey",
+    "save": "Save",
+    "monthly": "Monthly payment",
+    "yearly": "Yearly payment",
+    "talk": "Let's talk",
+    "discuss": "Let's discuss how we can help",
+    "fee": "At Writex.io, our aim is to help you unlock your true writing potential. However, in order to maintain and continuously improve our service, we kindly ask for a small fee to be paid.",
+    "trial": "The trial period is completely free and can be cancelled at any time.",
+    "consider": "We appreciate that you've created an account, but to use it requires a subscription with a small fee. With numerous useful features available, we're confident that Writex.io will help you unleash your full potential.",
+    "gotit": "Got it"
+  },
+  "features": {
+    "header": "Just some of the features",
+    "number-of-books": "Number of books",
+    "number-of-wikis": "Number of wikis",
+    "number-of-collaborators": "Number of collaborators",
+    "cloud-sync": "Cloud sync",
+    "comments": "Comments",
+    "publishing-writex": "Publishing on Writex.io",
+    "publishing-medium": "Publishing on Medium",
+    "publishing-epub": "Export as EPUB",
+    "ai-copilot": "AI Copilot based on ChatGPT tech",
+    "backup": "Automatic backups and history",
+    "writing-analytics": "Writing analytics",
+    "reading-analytics": "Reading analytics",
+    "sso": "Single Sign-On (SSO)",
+    "custom": "Custom features, built just for you",
+    "reader-books": "Books you can read",
+    "reader-quotes": "Quotes you can create",
+    "reader-statistics": "Your reading statistics and trends",
+
+    "ai-copilot-description": "Powerful tool that helps you write faster. Just concentrate on your story."
+  },
+  "success": {
+    "thanks": "Thanks",
+    "text": "<b>You're the best</b>!<br>Your support will allow us to work on Writex.io and make it better every day.",
+    "goToMainPage": "Start writing"
+  }
+}

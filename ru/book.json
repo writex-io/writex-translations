@@ -98,7 +98,7 @@
     "focusModeTooltip": "режим фокусирования",
     "tooSmall": "Слишком мало места для отображения.",
     "toolbar": {
-      "widgetSettings": "настройки виджета",
+      "widgetSettings": "настройки отображения",
       "widgetStatisticsSettings": "настройка статистики",
       "expandLayoutActions": "больше настроек",
       "splitHorizontally": "разделить по-горизонтали",
@@ -228,6 +228,13 @@
       "graphsAreHidden": "Графики скрыты",
       "datesRange": "Диапазон дат",
       "statisticsAggregationLabel": "Визуализация статистики",
+      "subscriptionAdvancedRequired": "Требуется Advanced подписка. <a>Сравните планы</a> и выберите наиболее подходящий.",
+      "intervals": {
+        "today": "сегодня",
+        "yesterday": "вчера",
+        "week": "неделя",
+        "month": "месяц"
+      },
       "statisticsAggregation": {
         "hours": "по-часовая",
         "minutes": "по-минутная",
@@ -349,7 +356,8 @@
     },
     "userAutocomplete": {
       "placeholder": "Добавить людей",
-      "noResults": "Введите email полностью. Для защиты приватности поиск по частично введенному email не выполняется."
+      "noResults": "Введите email полностью. Для защиты приватности поиск по частично введенному email не выполняется.",
+      "noMoreCollaborators": "Вы достигли предела количества сотрудников для вашей подписки. <a>Сравните подписки</a> и выберите наиболее подходящую."
     },
     "accessChangedToRestricted": "Доступ к некоторым частям документа был изменен. Требуется перезагрузка.",
     "accessChangedToGranted": "Был предоставлен доступ к дополнительным частям документа.",

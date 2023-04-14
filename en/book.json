@@ -98,12 +98,12 @@
     "focusModeTooltip": "focus mode",
     "tooSmall": "Too small to view anything.",
     "toolbar": {
-      "widgetSettings": "widget settings",
+      "widgetSettings": "view settings",
       "widgetStatisticsSettings": "statistics settings",
       "expandLayoutActions": "more layout settings",
       "splitHorizontally": "split horizontally",
       "splitVertically": "split vertically",
-      "removeWidget": "remove widget",
+      "removeWidget": "remove view",
       "removeLayout": "remove layout"
     }
   },
@@ -204,11 +204,11 @@
     }
   },
   "widgets": {
-    "notAttached": "Press the button and choose any widget you want to see here.",
+    "notAttached": "Press the button and choose any view you want to see here.",
     "choosePreset": "Choose layout preset from the list",
-    "attachToLayoutButton": "Choose widget",
+    "attachToLayoutButton": "Choose view",
     "settings": {
-      "main": "Widget settings",
+      "main": "View settings",
       "version": "Text version",
       "fontFamily": "Font family",
       "viewCategory": "View",
@@ -227,6 +227,13 @@
       "graphsAreHidden": "Charts are hidden",
       "datesRange": "Dates range",
       "statisticsAggregationLabel": "Statistics visualisation",
+      "subscriptionAdvancedRequired": "Advanced subscription is required. <a>Compare plans</a> and choose one that suits you best.",
+      "intervals": {
+        "today": "today",
+        "yesterday": "yesterday",
+        "week": "week",
+        "month": "month"
+      },
       "statisticsAggregation": {
         "hours": "hourly",
         "minutes": "minutely",
@@ -245,15 +252,15 @@
     "list": {
       "chapters": {
         "name": "Chapters list",
-        "description": "If you need a list of chapters in front of your eyes all the time, you can use this widget."
+        "description": "If you need a list of chapters in front of your eyes all the time, you can use this view."
       },
       "versions": {
         "name": "Versions list",
-        "description": "If you need a list of versions in front of your eyes all the time (with adding, editing and removing), you can use this widget."
+        "description": "If you need a list of versions in front of your eyes all the time (with adding, editing and removing), you can use this view."
       },
       "textBlocks": {
         "name": "Text",
-        "description": "A text widget is a simple text editor. It shows the text of your book or article."
+        "description": "A text view is a simple text editor. It shows the text of your book or article."
       },
       "comments": {
         "name": "Comments",
@@ -274,7 +281,7 @@
       },
       "wiki": {
         "name": "Wiki",
-        "description": "Wiki widget shows the description of the selected wiki."
+        "description": "Wiki view shows the description of the selected wiki."
       }
     },
     "categories": {
@@ -348,7 +355,8 @@
     },
     "userAutocomplete": {
       "placeholder": "Add people",
-      "noResults": "Please enter full email. For a fraud protection search on partial email will not be performed."
+      "noResults": "Please enter full email. For a fraud protection search on partial email will not be performed.",
+      "noMoreCollaborators": "You have reached the limit of collaborators for your subscription. <a>Compare plans</a> and choose one that suits you the best."
     },
     "accessChangedToRestricted": "Your access was restricted. Document reload will be done in a second.",
     "accessChangedToGranted": "Access to some additional parts of the book was granted.",

@@ -1,0 +1,72 @@
+{
+  "global": {
+    "hint": "Ihr persönliches Konto",
+    "helmetTitles": {
+      "profile": {
+        "title": "Profil | {{name}}",
+        "description": "Ihr öffentliches Profil."
+      },
+      "authentication": {
+        "title": "Authentifizierung | {{name}}",
+        "description": "Authentifizierungseinstellungen."
+      },
+      "integrations": {
+        "title": "Integrationen | {{name}}",
+        "description": "Integrationen mit Diensten von Drittanbietern."
+      },
+      "subscriptions": {
+        "title": "Abonnements | {{name}}",
+        "description": "Verwalten Sie Ihre Abonnements und Zahlungen."
+      }
+    }
+  },
+  "authentication": {
+    "name": "Authentifizierung",
+    "header": "Authentifizierung",
+    "description": "Verwenden Sie Authentifizierungsdienste von Drittanbietern, um sich bei Ihrem Konto anzumelden.",
+    "google": {
+      "header": "Google",
+      "link": "Google-Konto verknüpfen",
+      "remove": "Entfernen Sie die Google-Authentifizierung",
+      "descriptionWithoutLink": "Wir haben keinen Zugriff auf Ihre persönlichen Daten, sondern nur auf Ihre E-Mail-Adresse und Ihren Namen.",
+      "description": "Sie können sich mit Ihrem Google-Konto bei writex.io anmelden <avatar /> {{email}}."
+    },
+    "facebook": {
+      "header": "Facebook",
+      "link": "Facebook-Konto verknüpfen",
+      "remove": "Entfernen Sie die Facebook-Authentifizierung",
+      "descriptionWithoutLink": "Wir werden nichts auf Ihrem Facebook-Konto posten oder teilen und haben keinen Zugriff auf Ihre persönlichen Daten, sondern nur auf Ihre E-Mail-Adresse und Ihren Namen.",
+      "description": "Sie können sich mit Ihrem Facebook-Konto bei writex.io anmelden <avatar /> {{email}}."
+    },
+    "twitter": {
+      "header": "Twitter",
+      "link": "Twitter-Konto verknüpfen",
+      "remove": "Entfernen Sie die Twitter-Authentifizierung",
+      "descriptionWithoutLink": "Wir posten oder teilen nichts auf Ihrem Twitter-Konto und haben keinen Zugriff auf Ihre personenbezogenen Daten, sondern nur auf Ihre E-Mail-Adresse und Ihren Namen.",
+      "description": "Sie können sich mit Ihrem Twitter-Konto bei writex.io anmelden <avatar /> {{email}}."
+    },
+    "github": {
+      "header": "GitHub",
+      "link": "GitHub-Konto verknüpfen",
+      "remove": "Entfernen Sie die GitHub-Authentifizierung",
+      "descriptionWithoutLink": "Wir haben keinen Zugriff auf Ihre persönlichen Daten, sondern nur auf Ihre E-Mail-Adresse und Ihren Namen.",
+      "description": "Sie können sich mit Ihrem GitHub-Konto bei writex.io anmelden <avatar /> {{email}}."
+    }
+  },
+  "profile": {
+    "name": "Öffentliches Profil",
+    "header": "Profil",
+    "fullName": "Vollständiger Name",
+    "fullNameHint": "Jederzeit ändern oder löschen.",
+    "bio": "Kurz zu Ihrer Person",
+    "bioHint": "Wird für andere Mitglieder offen sein, wenn die Sharing-Funktion implementiert wird.",
+    "save": "Speichern",
+    "saved": "Gerettet"
+  },
+  "subscriptions": {
+    "name": "Abonnements",
+    "header": "Abonnements",
+    "description": "Verwalten Sie Ihre Abonnements, laden Sie Rechnungen herunter.",
+    "currentPlan": "Derzeitiger Plan"
+  }
+}

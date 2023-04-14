@@ -1,0 +1,51 @@
+{
+    "panel": {
+        "header": "Логін",
+        "slogan": "Writex.io — редактор із надзвичайними можливостями. "
+    },
+    "google": {
+        "signin": "увійти в Google",
+        "link": "Посилання з Google",
+        "proceed": "Продовжуйте з Google",
+        "errors": {
+            "auth/unauthorized-domain": "Цей домен не авторизовано для автентифікації.",
+            "auth/popup-blocked": "Спливаюче вікно входу заблоковано. ",
+            "auth/generic": "Щось пішло не так. ",
+            "auth/credential-already-in-use": "Цей обліковий запис уже пов’язано"
+        }
+    },
+    "facebook": {
+        "signin": "увійдіть у Facebook",
+        "link": "Посилання на Facebook",
+        "proceed": "Продовжуйте з Facebook",
+        "errors": {
+            "auth/unauthorized-domain": "Цей домен не авторизовано для автентифікації.",
+            "auth/popup-blocked": "Спливаюче вікно входу заблоковано. ",
+            "auth/generic": "Щось пішло не так. ",
+            "auth/credential-already-in-use": "Цей обліковий запис уже пов’язано"
+        }
+    },
+    "twitter": {
+        "signin": "увійти в Twitter",
+        "link": "Посилання на Twitter",
+        "proceed": "Продовжуйте з Twitter",
+        "errors": {
+            "auth/unauthorized-domain": "Цей домен не авторизовано для автентифікації.",
+            "auth/popup-blocked": "Спливаюче вікно входу заблоковано. ",
+            "auth/generic": "Щось пішло не так. ",
+            "auth/credential-already-in-use": "Цей обліковий запис уже пов’язано"
+        }
+    },
+    "github": {
+        "signin": "Увійти на Github",
+        "link": "Посилання на Github",
+        "proceed": "Продовжуйте з Github",
+        "errors": {
+            "auth/unauthorized-domain": "Цей домен не авторизовано для автентифікації.",
+            "auth/popup-blocked": "Спливаюче вікно входу заблоковано. ",
+            "auth/generic": "Щось пішло не так. ",
+            "auth/credential-already-in-use": "Цей обліковий запис уже пов’язано",
+            "github.errors.auth/generic": "Щось пішло не так. "
+        }
+    }
+}

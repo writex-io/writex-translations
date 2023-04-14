@@ -1,0 +1,47 @@
+{
+  "global": {
+    "helmetTitles": {
+      "list": {
+        "title": "Книги та статті | {{name}}",
+        "description": "Список ваших книг і статей."
+      }
+    }
+  },
+  "books": {
+    "allListHeader": "Книги та статті",
+    "sortBy": "Сортувати за",
+    "sortByOpened": "Останнє відкриття",
+    "sortByModified": "Востаннє змінено",
+    "sortByAlphabet": "За алфавітом",
+    "sortByCreated": "Востаннє створено",
+    "updateTime": "Відредаговано {{updateTime}} тому",
+    "createTime": "Створено {{createTime}} тому",
+    "allListOldHeader": "Старий формат",
+    "empty": "У вас ще немає книг чи статей.",
+    "emptyAdd": "Давайте створимо! "
+  },
+  "oldBooks": {
+    "convertButton": "Перетворити в новий формат",
+    "convertShortButton": "конвертувати",
+    "converting": "конвертація",
+    "removeButton": "натисніть ще раз, щоб видалити"
+  },
+  "sharedBooks": {
+    "header": "Поділився зі мною"
+  },
+  "create": {
+    "header": "Новий шедевр",
+    "newButton": "Створити новий",
+    "templatesCation": "Шаблони",
+    "basedOnBook": "книга",
+    "basedOnArticle": "ст",
+    "error": "Під час створення щось пішло не так. "
+  },
+  "book": {
+    "menu": {
+      "changeCover": "Змінити обкладинку",
+      "remove": "видалити"
+    },
+    "byAuthor": "за {{authorName}}"
+  }
+}

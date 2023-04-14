@@ -1,0 +1,47 @@
+{
+  "global": {
+    "helmetTitles": {
+      "list": {
+        "title": "Bücher und Artikel | {{name}}",
+        "description": "Liste Ihrer Bücher und Artikel."
+      }
+    }
+  },
+  "books": {
+    "allListHeader": "Bücher und Artikel",
+    "sortBy": "Sortiere nach",
+    "sortByOpened": "Zuletzt geöffnet",
+    "sortByModified": "Zuletzt bearbeitet",
+    "sortByAlphabet": "Alphabetisch",
+    "sortByCreated": "Zuletzt erstellt",
+    "updateTime": "Bearbeitet {{updateTime}} vor",
+    "createTime": "Erstellt {{createTime}} vor",
+    "allListOldHeader": "Altes Format",
+    "empty": "Sie haben noch keine Bücher oder Artikel.",
+    "emptyAdd": "Lassen Sie uns welche erstellen! "
+  },
+  "oldBooks": {
+    "convertButton": "In ein neues Format konvertieren",
+    "convertShortButton": "Konvertieren",
+    "converting": "konvertieren",
+    "removeButton": "Klicken Sie erneut, um sie zu entfernen"
+  },
+  "sharedBooks": {
+    "header": "Mit mir geteilt"
+  },
+  "create": {
+    "header": "Neues Meisterwerk",
+    "newButton": "Erstelle neu",
+    "templatesCation": "Vorlagen",
+    "basedOnBook": "Buch",
+    "basedOnArticle": "Artikel",
+    "error": "Beim Erstellen ist etwas schief gelaufen. "
+  },
+  "book": {
+    "menu": {
+      "changeCover": "Abdeckung wechseln",
+      "remove": "Entfernen"
+    },
+    "byAuthor": "Von {{authorName}}"
+  }
+}

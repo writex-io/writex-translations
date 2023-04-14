@@ -8,11 +8,14 @@
   "languages": {
     "tooltip": "языки",
     "en": "English",
+    "de": "Deutsch",
+    "uk": "Українська",
     "ru": "Русский"
   },
   "user": {
     "tooltip": "аккаунт",
     "account": "Аккаунт и Профайл",
+    "subscriptions": "Цены и Подписки",
     "logout": "Выход",
     "feedback": "Отзыв и Поддержка",
     "error": "Оой. Перезагрузите.",

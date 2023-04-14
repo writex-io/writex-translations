@@ -1,0 +1,51 @@
+{
+    "panel": {
+        "header": "Anmeldung",
+        "slogan": "Writex.io ist ein Editor mit Superkräften. "
+    },
+    "google": {
+        "signin": "Google-Anmeldung",
+        "link": "Mit Google verlinken",
+        "proceed": "Fahren Sie mit Google fort",
+        "errors": {
+            "auth/unauthorized-domain": "Diese Domäne ist nicht zur Authentifizierung autorisiert.",
+            "auth/popup-blocked": "Das Anmelde-Popup-Fenster wurde blockiert. ",
+            "auth/generic": "Etwas ist schief gelaufen. ",
+            "auth/credential-already-in-use": "Dieses Konto ist bereits verknüpft"
+        }
+    },
+    "facebook": {
+        "signin": "Facebook anmelden",
+        "link": "Mit Facebook verknüpfen",
+        "proceed": "Fahren Sie mit Facebook fort",
+        "errors": {
+            "auth/unauthorized-domain": "Diese Domäne ist nicht zur Authentifizierung autorisiert.",
+            "auth/popup-blocked": "Das Anmelde-Popup-Fenster wurde blockiert. ",
+            "auth/generic": "Etwas ist schief gelaufen. ",
+            "auth/credential-already-in-use": "Dieses Konto ist bereits verknüpft"
+        }
+    },
+    "twitter": {
+        "signin": "Twitter-Anmeldung",
+        "link": "Mit Twitter verknüpfen",
+        "proceed": "Fahren Sie mit Twitter fort",
+        "errors": {
+            "auth/unauthorized-domain": "Diese Domäne ist nicht zur Authentifizierung autorisiert.",
+            "auth/popup-blocked": "Das Anmelde-Popup-Fenster wurde blockiert. ",
+            "auth/generic": "Etwas ist schief gelaufen. ",
+            "auth/credential-already-in-use": "Dieses Konto ist bereits verknüpft"
+        }
+    },
+    "github": {
+        "signin": "Github-Anmeldung",
+        "link": "Mit Github verlinken",
+        "proceed": "Fahren Sie mit Github fort",
+        "errors": {
+            "auth/unauthorized-domain": "Diese Domäne ist nicht zur Authentifizierung autorisiert.",
+            "auth/popup-blocked": "Das Anmelde-Popup-Fenster wurde blockiert. ",
+            "auth/generic": "Etwas ist schief gelaufen. ",
+            "auth/credential-already-in-use": "Dieses Konto ist bereits verknüpft",
+            "github.errors.auth/generic": "Etwas ist schief gelaufen. "
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "themes": {
+    "tooltip": "Themen",
+    "light": "Licht",
+    "dark": "Dunkel",
+    "high-contrast": "Hoher Kontrast"
+  },
+  "languages": {
+    "tooltip": "Sprachen",
+    "en": "English",
+    "de": "Deutsch",
+    "uk": "Українська",
+    "ru": "Русский"
+  },
+  "user": {
+    "tooltip": "Konto",
+    "account": "Konto",
+    "subscriptions": "Preise",
+    "logout": "Ausloggen",
+    "feedback": "Rückmeldung",
+    "error": "Hoppla. ",
+    "sign-in": "anmelden"
+  },
+  "bugReport": {
+    "title": "Fehlerbericht oder Feedback",
+    "description": "Wir werden versuchen, Ihnen so schnell wie möglich zu helfen. ",
+    "send": "Schicken",
+    "cancel": "Stornieren",
+    "placeholder": "Beschreiben Sie das Problem oder Ihren Vorschlag",
+    "error": "Etwas ist schief gelaufen. ",
+    "success": "Danke für Ihre Rückmeldung! "
+  },
+  "integrations": {
+    "name": "Integrationen",
+    "header": "Integrationen",
+    "description": "Integrieren Sie Ihr Konto mit anderen Diensten.",
+    "save": "Speichern",
+    "saved": "Gerettet",
+    "medium": {
+      "header": "Mittel",
+      "connect": "Verbinden",
+      "connected": "{{mediumName}} – Ihr Medium-Konto ist in das aktuelle Profil integriert. ",
+      "disconnect": "Trennen",
+      "notConnected": "Sie haben keine Integration mit Medium.",
+      "account": "Besuchen Sie das Medium-Konto",
+      "modal": {
+        "header": "Medium-Konto verbinden",
+        "description": "Um Ihr Medium-Konto zu verbinden, benötigen Sie ein Integrationstoken.",
+        "description2": " Sie können es erhalten, indem Sie die folgenden Anweisungen befolgen.",
+        "step1": "Gehe zu <b><a href=\"https://medium.com/me/settings\" target=\"_blank\">Mittlere Einstellungen</a></b> –> \"<b>Sicherheit und Apps</b>\" –> \"<b>Integrationstoken</b>\".",
+        "step2": "Kopieren Sie das Integrationstoken und fügen Sie es in das Feld unten ein.",
+        "step3": "Klicken \"<b>Verbinden</b>\" Taste.",
+        "step4": "Du bist fertig",
+        "save": "Verbinden",
+        "saved": "Die Integration mit Medium wurde erfolgreich hergestellt.",
+        "cancel": "Stornieren",
+        "tokenPlaceholder": "Integrationstoken hier einfügen",
+        "error": "Fehler.",
+        "errorDescription": "Etwas ist schief gelaufen. "
+      }
+    }
+  }
+}

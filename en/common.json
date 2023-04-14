@@ -8,13 +8,16 @@
   "languages": {
     "tooltip": "languages",
     "en": "English",
+    "de": "Deutsch",
+    "uk": "Українська",
     "ru": "Русский"
   },
   "user": {
     "tooltip": "account",
     "account": "Account & Profile",
+    "subscriptions": "Prices & Plans",
     "logout": "Logout",
-    "feedback": "Bug report or feedback",
+    "feedback": "Feedback & Bugs",
     "error": "Oops. Try to reload.",
     "sign-in": "Sign in"
   },
