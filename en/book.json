@@ -265,7 +265,8 @@
       "comments": {
         "name": "Comments",
         "description": "Comments to the text. List of all comments to the text.",
-        "empty": "No comments yet. Be the first to comment!"
+        "empty": "No comments yet. Be the first to comment!",
+        "add": "Add comment"
       },
       "spellchecks": {
         "name": "Spellcheck",
@@ -372,7 +373,7 @@
   },
   "ai": {
     "toolbar": {
-      "tooltip": "ask AI",
+      "tooltip": "AI Copilot",
       "inputPlaceholder": "What do you want to know?",
       "helpText": "It's a beta version of AI. Please <a>read more here</a> about limitations and biases.",
       "longLoading": "Takes longer than usual. Please wait or try later.",
@@ -385,7 +386,7 @@
       "prompt": "What to do with selected text?",
       "tooltip": {
         "loading": "thinking...",
-        "write": "AI assist",
+        "write": "AI Copilot",
         "error": "🤖 Sorry, please try again later.",
         "languageNotSupported": "🤖 doesn't support chosen language yet"
       }
