@@ -265,7 +265,8 @@
       "comments": {
         "name": "Kommentare",
         "description": "Kommentare zum Text. ",
-        "empty": "Noch keine Kommentare. "
+        "empty": "Noch keine Kommentare. ",
+        "add": "Kommentar hinzufügen"
       },
       "spellchecks": {
         "name": "Rechtschreibprüfung",
@@ -372,7 +373,7 @@
   },
   "ai": {
     "toolbar": {
-      "tooltip": "frag KI",
+      "tooltip": "Copilot",
       "inputPlaceholder": "Was möchtest du wissen?",
       "helpText": "Es ist eine Beta-Version von AI.  <a>lesen Sie hier mehr</a> über Grenzen und Vorurteile.",
       "longLoading": "Dauert länger als sonst. ",
@@ -385,7 +386,7 @@
       "prompt": "Was tun mit markiertem Text?",
       "tooltip": {
         "loading": "Denken...",
-        "write": "KI-Unterstützung",
+        "write": "Copilot",
         "error": "🤖 Entschuldigung, bitte versuchen Sie es später noch einmal.",
         "languageNotSupported": "🤖 unterstützt die gewählte Sprache noch nicht"
       }
