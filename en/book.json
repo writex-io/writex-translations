@@ -86,6 +86,11 @@
         "header": "The Perils of Plagiarizing AI-Generated Content",
         "text": "<p>In the age of AI-driven content creation, it is important to be aware of the ethical boundaries when using AI-generated text. Using AI-generated prompts as your own content without proper attribution is a form of plagiarism and can have serious consequences.</p><p>Firstly, passing off AI-generated text as your own work undermines your credibility as a writer or content creator. Authenticity is highly valued, and building trust with your audience is crucial for success. By using AI-generated text without proper credit, you jeopardize your reputation and risk losing the trust of your audience.</p><p>Secondly, AI-generated content may not always be accurate or reliable. AI models, such as GPT-4, are trained on vast amounts of data from the internet, which can contain outdated, biased, or incorrect information. By using AI-generated text without proper vetting or fact-checking, you risk perpetuating inaccuracies and spreading misinformation.</p><p>Lastly, using AI-generated content without attribution can result in legal consequences. As AI-generated content becomes more prevalent, copyright and intellectual property laws are adapting to encompass these new technologies. Failing to properly attribute the source of AI-generated text could lead to potential lawsuits or other legal ramifications.</p><p>In conclusion, while AI-generated content can be an invaluable tool for writers and content creators, it is crucial to use it responsibly and ethically. Always attribute the source of AI-generated text, fact-check the information, and remember to maintain your own unique voice and perspective.</p>"
       }
+    },
+    "history": {
+      "header": "History",
+      "buttonClose": "Close",
+      "buttonRestore": "Restore"
     }
   },
   "untitled": "Untitled",
@@ -408,5 +413,11 @@
         "close": "close"
       }
     }
+  },
+  "history": {
+    "dateAndTime": "Date and time",
+    "selectDate": "Select a date",
+    "tooltip": "change history",
+    "simplified": "The history displays a simplified version of the text, without paragraphs or styling. However, if you restore a version, it will be restored with all its original styling."
   }
 }
