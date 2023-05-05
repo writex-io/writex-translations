@@ -86,6 +86,11 @@
         "header": "Die Gefahren des Plagiierens von KI-generierten Inhalten",
         "text": "<p>Im Zeitalter der KI-gesteuerten Inhaltserstellung ist es wichtig, sich der ethischen Grenzen bei der Verwendung von KI-generiertem Text bewusst zu sein. </p><p>Erstens untergräbt das Ausgeben von KI-generiertem Text als Ihre eigene Arbeit Ihre Glaubwürdigkeit als Autor oder Ersteller von Inhalten. </p><p>Zweitens sind KI-generierte Inhalte möglicherweise nicht immer genau oder zuverlässig. </p><p>Schließlich kann die Verwendung von KI-generierten Inhalten ohne Namensnennung rechtliche Konsequenzen nach sich ziehen. </p><p>Zusammenfassend lässt sich sagen, dass KI-generierte Inhalte zwar ein unschätzbares Werkzeug für Autoren und Ersteller von Inhalten sein können, es aber entscheidend ist, sie verantwortungsbewusst und ethisch zu verwenden. </p>"
       }
+    },
+    "history": {
+      "header": "Geschichte",
+      "buttonClose": "Schließen",
+      "buttonRestore": "Wiederherstellen"
     }
   },
   "untitled": "Ohne Titel",
@@ -408,5 +413,11 @@
         "close": "schließen"
       }
     }
+  },
+  "history": {
+    "dateAndTime": "Datum und Uhrzeit",
+    "selectDate": "Wählen Sie ein Datum",
+    "tooltip": "Zeitreise",
+    "simplified": "Die Versionshistorie zeigt eine vereinfachte Version des Textes an. Es zeigt keine Absätze oder Formatierungen. Wenn Sie jedoch eine Version wiederherstellen, wird sie mit allen Formatierungen wiederhergestellt."
   }
 }
