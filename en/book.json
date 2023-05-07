@@ -411,13 +411,16 @@
         "copy": "copy",
         "copied": "copied",
         "close": "close"
-      }
+      },
+      "noSubscriptionCaption": "Limited to <b>20 messages</b> per book. <a>Compare plans</a> and choose one that suits you the best.",
+      "basicSubscriptionCaption": "Limited to <b>1000 messages</b> per book. <a>Compare plans</a> and choose one that suits you the best."
     }
   },
   "history": {
     "dateAndTime": "Date and time",
     "selectDate": "Select a date",
     "tooltip": "change history",
+    "noSubscription": "required subscription",
     "simplified": "The history displays a simplified version of the text, without paragraphs or styling. However, if you restore a version, it will be restored with all its original styling."
   }
 }

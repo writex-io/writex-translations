@@ -21,10 +21,12 @@
   },
   "plan": {
     "name": {
+      "free": "Free",
       "basic": "Basic",
       "advanced": "Advanced",
       "enterprise": "Enterprise"
     },
+    "free": "Begin your journey with Writex.io for free in an intelligent and efficient manner.",
     "basic": "Unleash your full writing potential, smartly and effectively.",
     "advanced": "Let AI bring your writing to a new level. Writing never be the same again.",
     "enterprise": "If you're a company interested in using Writex.io, we'll work with you to find the best solution.",
@@ -54,11 +56,13 @@
     "fee": "At Writex.io, our aim is to help you unlock your true writing potential. However, in order to maintain and continuously improve our service, we kindly ask for a small fee to be paid.",
     "trial": "The trial period is completely free and can be cancelled at any time.",
     "consider": "We appreciate that you've created an account, but to use it requires a subscription with a small fee. With numerous useful features available, we're confident that Writex.io will help you unleash your full potential.",
-    "gotit": "Got it"
+    "gotit": "Got it",
+    "noPayment": "No payment is required"
   },
   "features": {
     "header": "Just some of the features",
     "number-of-books": "Number of books",
+    "number-of-chapters": "Number of chapters",
     "number-of-wikis": "Number of wikis",
     "number-of-collaborators": "Number of collaborators",
     "cloud-sync": "Cloud sync",
@@ -66,7 +70,7 @@
     "publishing-writex": "Publishing on Writex.io",
     "publishing-medium": "Publishing on Medium",
     "publishing-epub": "Export as EPUB",
-    "ai-copilot": "AI Copilot based on ChatGPT tech",
+    "ai-copilot": "AI Copilot based on ChatGPT tech (messages/month)",
     "backup": "Automatic backups and history",
     "writing-analytics": "Writing analytics",
     "reading-analytics": "Reading analytics",
