@@ -411,12 +411,15 @@
         "copy": "Kopieren",
         "copied": "kopiert",
         "close": "schließen"
-      }
+      },
+      "noSubscriptionCaption": "Auf <b>20 Nachrichten</b> pro Buch begrenzt. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
+      "basicSubscriptionCaption": "Auf <b>1000 Nachrichten</b> pro Buch begrenzt. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt."
     }
   },
   "history": {
     "dateAndTime": "Datum und Uhrzeit",
     "selectDate": "Wählen Sie ein Datum",
+    "noSubscription": "erforderliches Abonnement",
     "tooltip": "Zeitreise",
     "simplified": "Die Versionshistorie zeigt eine vereinfachte Version des Textes an. Es zeigt keine Absätze oder Formatierungen. Wenn Sie jedoch eine Version wiederherstellen, wird sie mit allen Formatierungen wiederhergestellt."
   }

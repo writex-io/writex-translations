@@ -60,5 +60,11 @@
         "errorDescription": "Etwas ist schief gelaufen. "
       }
     }
+  },
+  "notifications": {
+    "error": "Fehler",
+    "subscriptionLimitExceeded": "Sie haben das Kapitel-Limit für Ihr Abonnement erreicht. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
+    "subscriptionLimitWikisExceeded": "Sie haben das Wikis-Limit für Ihr Abonnement erreicht. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
+    "subscriptionRequiredHistory": "Für den Zugriff auf Verlauf und Backups ist ein Abonnement erforderlich. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt."
   }
 }

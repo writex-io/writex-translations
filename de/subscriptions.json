@@ -21,10 +21,12 @@
   },
   "plan": {
     "name": {
+      "free": "Free",
       "basic": "Basic",
       "advanced": "Fortschrittlich",
       "enterprise": "Unternehmen"
     },
+    "free": "Beginnen Sie Ihre Reise mit Writex.io kostenlos auf intelligente und effiziente Weise.",
     "basic": "Entfesseln Sie Ihr volles Schreibpotenzial, intelligent und effektiv.",
     "advanced": "Lassen Sie KI Ihr Schreiben auf ein neues Niveau bringen. ",
     "enterprise": "Wenn Sie ein Unternehmen sind, das daran interessiert ist, Writex.io zu verwenden, werden wir mit Ihnen zusammenarbeiten, um die beste Lösung zu finden.",
@@ -54,11 +56,13 @@
     "fee": "Unser Ziel bei Writex.io ist es, Ihnen dabei zu helfen, Ihr wahres Schreibpotenzial freizusetzen. ",
     "trial": "Die Testphase ist komplett kostenlos und kann jederzeit gekündigt werden.",
     "consider": "Wir wissen es zu schätzen, dass Sie ein Konto erstellt haben, aber um es zu verwenden, ist ein Abonnement gegen eine geringe Gebühr erforderlich. ",
-    "gotit": "Habe es"
+    "gotit": "Habe es",
+    "noPayment": "Keine Zahlung erforderlich"
   },
   "features": {
     "header": "Nur einige der Funktionen",
     "number-of-books": "Anzahl der Bücher",
+    "number-of-chapters": "Anzahl der Kapitel",
     "number-of-wikis": "Anzahl Wikis",
     "number-of-collaborators": "Anzahl der Mitarbeiter",
     "cloud-sync": "Cloud-Synchronisierung",
@@ -66,7 +70,7 @@
     "publishing-writex": "Veröffentlichung auf Writex.io",
     "publishing-medium": "Veröffentlichung auf Medium",
     "publishing-epub": "Als EPUB exportieren",
-    "ai-copilot": "AI Copilot basierend auf ChatGPT-Technologie",
+    "ai-copilot": "AI Copilot basierend auf ChatGPT-Technologie (Nachrichten/Monat)",
     "backup": "Automatische Backups und Verlauf",
     "writing-analytics": "Analytik schreiben",
     "reading-analytics": "Analytik lesen",
