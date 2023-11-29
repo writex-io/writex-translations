@@ -61,7 +61,8 @@
   },
   "header": {
     "reader": "Reader",
-    "editor": "Editor"
+    "editor": "Editor",
+    "publishers": "Publishers"
   },
   "share": {
     "tooltip": "share",
@@ -87,5 +88,25 @@
         "shareOnTwitter": "Share on Twitter"
       }
     }
+  },
+  "buy": {
+    "header": "Buy",
+    "headerBook": "Book",
+    "currencyShort": {
+      "usd": "$",
+      "eur": "€",
+      "gbp": "£",
+      "cad": "$",
+      "aud": "$",
+      "nzd": "$",
+      "chf": "₣",
+      "jpy": "¥",
+      "cny": "¥",
+      "sek": "kr"
+    },
+    "button": "Buy",
+    "signInText": "You need to be signed in to buy this chapter.",
+    "buyChapterText": "Purchase this chapter to support the author. Payment will be processed through our trusted payment provider, Stripe.",
+    "buyBookText": "Buy the entire book, including <b>all current</b> and <b>future chapters</b>."
   }
 }

@@ -67,6 +67,11 @@
     "error": "Error",
     "subscriptionLimitExceeded": "You have reached the limit of Chapters for your subscription. <a>Compare plans</a> and choose one that suits you the best.",
     "subscriptionLimitWikisExceeded": "You have reached the limit of Wikis for your subscription. <a>Compare plans</a> and choose one that suits you the best.",
-    "subscriptionRequiredHistory": "A subscription is required for access to history and backups. <a>Compare plans</a> and choose one that suits you the best."
+    "subscriptionRequiredHistory": "A subscription is required for access to history and backups. <a>Compare plans</a> and choose one that suits you the best.",
+    "sell": {
+      "savePricesSucceeded": "Prices saved successfully.",
+      "savePricesFailed": "Failed to save prices. Please, try again.",
+      "priceTooLow": "The price is too low. The minimum price for the currency {{currency}} is {{minPrice}}."
+    }
   }
 }

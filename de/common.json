@@ -65,6 +65,11 @@
     "error": "Fehler",
     "subscriptionLimitExceeded": "Sie haben das Kapitel-Limit für Ihr Abonnement erreicht. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
     "subscriptionLimitWikisExceeded": "Sie haben das Wikis-Limit für Ihr Abonnement erreicht. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
-    "subscriptionRequiredHistory": "Für den Zugriff auf Verlauf und Backups ist ein Abonnement erforderlich. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt."
+    "subscriptionRequiredHistory": "Für den Zugriff auf Verlauf und Backups ist ein Abonnement erforderlich. <a>Vergleiche Pläne</a> und wähle den, der am besten zu dir passt.",
+    "sell": {
+      "savePricesSucceeded": "Preise erfolgreich gespeichert.",
+      "savePricesFailed": "Fehler beim Speichern der Preise. Bitte versuchen Sie es erneut.",
+      "priceTooLow": "Der Preis ist zu niedrig. Der Mindestpreis mit der Währung {{currency}} beträgt {{minPrice}}."
+    }
   }
 }

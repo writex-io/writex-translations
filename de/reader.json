@@ -61,7 +61,8 @@
   },
   "header": {
     "reader": "Leser",
-    "editor": "Editor"
+    "editor": "Editor",
+    "publishers": "Verlage"
   },
   "share": {
     "tooltip": "Aktie",
@@ -87,5 +88,25 @@
         "shareOnTwitter": "Auf Twitter teilen"
       }
     }
+  },
+  "buy": {
+    "header": "Kaufen",
+    "headerBook": "Buch",
+    "currencyShort": {
+      "usd": "$",
+      "eur": "€",
+      "gbp": "£",
+      "cad": "$",
+      "aud": "$",
+      "nzd": "$",
+      "chf": "₣",
+      "jpy": "¥",
+      "cny": "¥",
+      "sek": "kr"
+    },
+    "button": "Kaufen",
+    "signInText": "Du musst angemeldet sein, um dieses Kapitel zu kaufen.",
+    "buyChapterText": "Kaufen Sie dieses Kapitel, um den Autor zu unterstützen. Die Zahlung erfolgt über unseren vertrauenswürdigen Zahlungsanbieter Stripe.",
+    "buyBookText": "Kaufen Sie das gesamte Buch mit <b>allen aktuellen</b> und <b>zukünftigen Kapiteln</b>."
   }
 }

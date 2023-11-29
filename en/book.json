@@ -11,6 +11,11 @@
   "errors": {
     "noAccess": "Do not exist, or you don't have an access."
   },
+  "header": {
+    "reader": "Reader",
+    "editor": "Editor",
+    "publishers": "Publishers"
+  },
   "modals": {
     "changeCover": {
       "header": "Change cover",
@@ -75,10 +80,13 @@
           "allHint": "Any readers with the link",
           "allSubscribers": "All subscribers [not available now]",
           "allSubscribersHint": "Just your subscribers",
-          "paidSubscribers": "Paid subscribers [not available now]",
-          "paidSubscribersHint": "Your subscribers who paid for this book"
+          "paidSubscribers": "Paid readers <tag>new modal</tag>",
+          "paidSubscribersHint": "Readers who paid for this book"
         },
-        "dividerUsers": "Publish for specified users"
+        "dividerAudience": "Audience Selection",
+        "dividerUsers": "Publish for specified users",
+        "description": "You're publishing your work for free. Choose the audience on the left and publish content for them on the right. The marketplace isn't available yet, so make sure to promote your work by sharing the reader link on social media.",
+        "descriptionPaid": "You can also <a>publish it for a fee</a>."
       }
     },
     "ai": {
@@ -91,6 +99,70 @@
       "header": "History",
       "buttonClose": "Close",
       "buttonRestore": "Restore"
+    },
+    "sell": {
+      "header": "Publishing for a fee",
+      "description": "You can set a price for each chapter. We recommend keeping the first 2-3 chapters free, allowing readers to sample your book before making a purchase.",
+      "error": "Щось пішло не так. Будь ласка, спробуйте пізніше.",
+      "headerCreatePaymentAccount": "Let's create your payment account",
+      "descriptionCreatePaymentAccount": "We'll create your account on our payment provider, Stripe, and you'll be able to receive payments from your readers.",
+      "buttonCancel": "Cancel",
+      "buttonClose": "Close",
+      "buttonSave": "Save",
+      "startCreatePaymentAccount": "Start",
+      "headerFinishOnboarding": "Let's finish onboarding",
+      "descriptionFinishOnboarding": "We'll finish onboarding you to Stripe, our payment provider, and you'll be able to receive payments from your readers.",
+      "buttonFinishOnboarding": "Start onboarding",
+      "onboardingFinished": {
+        "header": "Congrats",
+        "text": "You've finished onboarding to Stripe, our payment provider. You can now receive payments from your readers."
+      },
+      "dashboard": {
+        "header": "Sales Overview",
+        "text": "View an overview of your sales by accessing your Stripe dashboard.",
+        "buttonDashboard": "Open Stripe Dashboard"
+      },
+      "promotion": {
+        "header": "Promote your book",
+        "text": "You can use the link below to share your book on social media or send it to your readers."
+      },
+      "tabSellChapters": "Sell chapter by chapter",
+      "tabSellBook": "Sell the whole book",
+      "tabSellBookHint": "You have the option to set a price <b>for each chapter</b>. We suggest offering the first 2-3 chapters for free, allowing readers to get a taste of your book before deciding to make a purchase.",
+      "tabsSellChaptersHint": "In this section, you can set the price for the <b>entire book</b>, including both the current and future chapters. It doesn't matter how large your book is, if a reader pays the price you've set, they will have access to <b>all future chapters</b> that you publish.",
+      "chapters": {
+        "disabled": {
+          "publicAccess": "You are unable to set a price for this chapter as it is publicly available.",
+          "unknown": "You are unable to set a price for this chapter as it is not available."
+        }
+      },
+      "currenciesLabel": "Currency",
+      "currency": {
+        "usd": "USD ($ United States Dollar)",
+        "eur": "EUR (€ Euro)",
+        "gbp": "GBP (£ Pound sterling)",
+        "cad": "CAD ($ Canadian Dollar)",
+        "aud": "AUD ($ Australian Dollar)",
+        "nzd": "NZD ($ New Zealand Dollar)",
+        "chf": "CHF (₣ Swiss Franc)",
+        "jpy": "JPY (¥ Japanese Yen)",
+        "cny": "CNY (¥ Chinese Yuan)",
+        "sek": "SEK (kr Swedish Krona)"
+      },
+      "currencyShort": {
+        "usd": "$",
+        "eur": "€",
+        "gbp": "£",
+        "cad": "$",
+        "aud": "$",
+        "nzd": "$",
+        "chf": "₣",
+        "jpy": "¥",
+        "cny": "¥",
+        "sek": "kr"
+      },
+      "earn": "earn",
+      "stripeFees": "Stripe fees"
     }
   },
   "untitled": "Untitled",
@@ -373,6 +445,7 @@
     "epub": "Save as EPUB",
     "internal": "Publish on Writex.io",
     "internalHelper": "Publish on Writex.io and share the Reader link.",
+    "sell": "Sell on Writex.io",
     "otherHelper": "Publish on other platforms or save your work.",
     "tooltip": "publishing menu"
   },
@@ -398,13 +471,19 @@
     },
     "global": {
       "context": {
-        "clear": "clear context"
+        "clear": "clear context",
+        "set": "set context",
+        "wiki": "I will work on the wiki <b>{{text}}</b>",
+        "chapter": "I will work on the chapter <b>{{text}}</b>",
+        "text": "I will work on the text: {{text}}"
       },
       "prompt": {
         "error": "🤖 please try again later",
         "placeholder": {
           "withContext": "What to do with selected text?",
-          "withoutContext": "How can I help?"
+          "withoutContext": "How can I help?",
+          "withContextChapters": "How can I help with this chapter?",
+          "withContextWikis": "How can I help with this wiki?"
         }
       },
       "answers": {
@@ -422,5 +501,50 @@
     "tooltip": "change history",
     "noSubscription": "required subscription",
     "simplified": "The history displays a simplified version of the text, without paragraphs or styling. However, if you restore a version, it will be restored with all its original styling."
+  },
+  "publishers": {
+    "header": "Publishers",
+    "noPublishers": "No publishers yet. We're working on it.",
+    "notFound": "Not found or does not exist.",
+    "genreDropdown": "All Genres",
+    "criteriaDropdown": "All Criteria",
+    "acceptance": {
+      "declared": "declared acceptance",
+      "average": "average acceptance"
+    },
+    "onlyFree": {
+      "active": "Only Free",
+      "inactive": "With fee and free"
+    },
+    "onlyWithPayments": {
+      "active": "Only with Payouts",
+      "inactive": "With and without payouts"
+    },
+    "criteria": {
+      "simultaneous_submissions": "Simultaneous Submissions",
+      "previously_published": "Previously Published",
+      "payment":  "Payout",
+      "fee": "Fee",
+      "expedited_response":  "Expedited Response",
+      "available_in_print": "Available in Print",
+      "provide_contributor_copies":  "Provide Contributor Copies",
+      "examples_online": "Examples Online",
+      "active_on_social_media":  "Active on Social Media"
+    }
+  },
+  "publisher": {
+    "admin": {
+      "switchToReader": "Switch to Reader",
+      "switchToAdmin": "Switch to Admin",
+      "edit": "Edit",
+      "title": "Edit title information",
+      "titleDescription": "This information will be displayed on the publisher's page. Try to get essence of their work in a few sentences.",
+      "contacts": "Edit contacts",
+      "contactsDescription": "This information will be displayed on the publisher's page. You can add links to their social media, website, or email.",
+      "acceptance": "Edit acceptance time",
+      "acceptanceDescription": "The declared acceptance should be taken from publisher website. The average acceptance time is calculated based on the last 10 submissions. If you don't have enough submissions, you can declare the acceptance time.",
+      "criteria": "Edit criteria",
+      "criteriaDescription": "These criteria will be displayed on the publisher's page. You can add or remove criteria."
+    }
   }
 }

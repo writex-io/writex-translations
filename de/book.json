@@ -11,6 +11,11 @@
   "errors": {
     "noAccess": "Existieren nicht, oder Sie haben keinen Zugriff."
   },
+  "header": {
+    "reader": "Leser",
+    "editor": "Editor",
+    "publishers": "Verlage"
+  },
   "modals": {
     "changeCover": {
       "header": "Abdeckung wechseln",
@@ -75,10 +80,13 @@
           "allHint": "Alle Leser mit dem Link",
           "allSubscribers": "Alle Abonnenten [derzeit nicht verfügbar]",
           "allSubscribersHint": "Nur Ihre Abonnenten",
-          "paidSubscribers": "Bezahlte Abonnenten [derzeit nicht verfügbar]",
+          "paidSubscribers": "Bezahlte Leser <tag>neues Modal</tag>",
           "paidSubscribersHint": "Ihre Abonnenten, die für dieses Buch bezahlt haben"
         },
-        "dividerUsers": "Für bestimmte Benutzer veröffentlichen"
+        "dividerAudience": "Zielgruppenauswahl",
+        "dividerUsers": "Für bestimmte Benutzer veröffentlichen",
+        "description": "Du veröffentlichst deine Arbeit kostenlos. Wähle das Publikum links aus und veröffentliche den Inhalt für sie auf der rechten Seite. Der Marktplatz ist noch nicht verfügbar, daher solltest du sicherstellen, dass du deine Arbeit durch Teilen eines Links zu deinem Leser in den sozialen Medien bewirbst.",
+        "descriptionPaid": "Du kannst es auch <a>gegen eine Gebühr veröffentlichen</a>."
       }
     },
     "ai": {
@@ -91,6 +99,70 @@
       "header": "Geschichte",
       "buttonClose": "Schließen",
       "buttonRestore": "Wiederherstellen"
+    },
+    "sell": {
+      "header": "Veröffentlichung gegen Gebühr",
+      "description": "Du kannst den Preis für jedes Kapitel festlegen. Wir empfehlen, 2-3 Kapitel kostenlos zu lassen, damit die Leser einen Vorgeschmack auf dein Buch bekommen können.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
+      "headerCreatePaymentAccount": "Lassen Sie uns Ihr Zahlungskonto erstellen",
+      "descriptionCreatePaymentAccount": "Wir werden Ihr Konto bei unserem Zahlungsanbieter Stripe erstellen, damit Sie Zahlungen von Ihren Lesern erhalten können.",
+      "buttonCancel": "Abbrechen",
+      "buttonClose": "Schließen",
+      "buttonSave": "Speichern",
+      "startCreatePaymentAccount": "Start",
+      "headerFinishOnboarding": "Lassen Sie uns das Onboarding abschließen",
+      "descriptionFinishOnboarding": "Wir werden Sie zum Abschluss des Onboardings bei Stripe, unserem Zahlungsanbieter, führen, damit Sie Zahlungen von Ihren Lesern erhalten können.",
+      "buttonFinishOnboarding": "Onboarding starten",
+      "onboardingFinished": {
+        "header": "Herzlichen Glückwunsch",
+        "text": "Du hast den Onboarding-Prozess bei Stripe, unserem Zahlungsanbieter, abgeschlossen. Du kannst jetzt Zahlungen von deinen Lesern empfangen."
+      },
+      "dashboard": {
+        "header": "Verkaufsübersicht",
+        "text": "Überprüfen Sie Ihr Stripe-Dashboard, um eine Übersicht Ihrer Verkäufe zu sehen.",
+        "buttonDashboard": "Stripe-Dashboard öffnen"
+      },
+      "promotion": {
+        "header": "Dein Buch bewerben",
+        "text": "Du kannst den unten stehenden Link verwenden, um dein Buch in sozialen Medien zu teilen oder an deine Leser zu senden."
+      },
+      "tabSellChapters": "Kapitelweise verkaufen",
+      "tabSellBook": "Das ganze Buch verkaufen",
+      "tabSellBookHint": "Sie haben die Möglichkeit, einen Preis <b>für jede Kapitel</b> festzulegen. Wir empfehlen, die ersten 2-3 Kapitel kostenlos anzubieten, damit Leser einen Vorgeschmack auf Ihr Buch bekommen, bevor sie einen Kauf tätigen.",
+      "tabsSellChaptersHint": "In diesem Abschnitt können Sie den Preis für das <b>gesamte Buch</b> festlegen, einschließlich der aktuellen und zukünftigen Kapitel. Es spielt keine Rolle, wie groß Ihr Buch ist, wenn ein Leser den von Ihnen festgelegten Preis bezahlt, hat er Zugriff auf <b>alle zukünftigen Kapitel</b>, die Sie veröffentlichen.",
+      "chapters": {
+        "disabled": {
+          "publicAccess": "Sie können keinen Preis für dieses Kapitel festlegen, da es öffentlich verfügbar ist.",
+          "unknown": "Sie können keinen Preis für dieses Kapitel festlegen, da es nicht verfügbar ist."
+        }
+      },
+      "currenciesLabel": "Währung",
+      "currency": {
+        "usd": "USD ($ US-Dollar)",
+        "eur": "EUR (€ Euro)",
+        "gbp": "GBP (£ Britisches Pfund)",
+        "cad": "CAD ($ Kanadischer Dollar)",
+        "aud": "AUD ($ Australischer Dollar)",
+        "nzd": "NZD ($ Neuseeland-Dollar)",
+        "chf": "CHF (₣ Schweizer Franken)",
+        "jpy": "JPY (¥ Japanischer Yen)",
+        "cny": "CNY (¥ Chinesischer Yuan)",
+        "sek": "SEK (kr Schwedische Krone)"
+      },
+      "currencyShort": {
+        "usd": "$",
+        "eur": "€",
+        "gbp": "£",
+        "cad": "$",
+        "aud": "$",
+        "nzd": "$",
+        "chf": "₣",
+        "jpy": "¥",
+        "cny": "¥",
+        "sek": "kr"
+      },
+      "earn": "verdienen",
+      "stripeFees": "Stripe-Gebühren"
     }
   },
   "untitled": "Ohne Titel",
@@ -373,6 +445,7 @@
     "epub": "Als EPUB speichern",
     "internal": "Veröffentlichen Sie auf Writex.io",
     "internalHelper": "Veröffentlichen Sie auf Writex.io und teilen Sie den Reader-Link.",
+    "sell": "Verkaufen auf Writex.io",
     "otherHelper": "Veröffentlichen Sie auf anderen Plattformen oder speichern Sie Ihre Arbeit.",
     "tooltip": "Verlagsmenü"
   },
@@ -398,13 +471,18 @@
     },
     "global": {
       "context": {
-        "clear": "klarer Kontext"
+        "clear": "klarer Kontext",
+        "set": "setzen Sie den Kontext",
+        "wiki": "Ich werde an dem Wiki <b>{{text}}</b> arbeiten.",
+        "chapter": "Ich werde am Kapitel <b>{{text}}</b> arbeiten."
       },
       "prompt": {
         "error": "🤖 Bitte versuche es später noch einmal",
         "placeholder": {
           "withContext": "Was tun mit markiertem Text?",
-          "withoutContext": "Wie kann ich helfen?"
+          "withoutContext": "Wie kann ich helfen?",
+          "withContextChapters": "Wie kann ich bei diesem Kapitel helfen?",
+          "withContextWikis": "Wie kann ich bei diesem Wiki helfen?"
         }
       },
       "answers": {
@@ -422,5 +500,35 @@
     "noSubscription": "erforderliches Abonnement",
     "tooltip": "Zeitreise",
     "simplified": "Die Versionshistorie zeigt eine vereinfachte Version des Textes an. Es zeigt keine Absätze oder Formatierungen. Wenn Sie jedoch eine Version wiederherstellen, wird sie mit allen Formatierungen wiederhergestellt."
+  },
+  "publishers": {
+    "header": "Verlage",
+    "notFound": "Nicht gefunden oder existiert nicht.",
+    "noPublishers": "Noch keine Verlage vorhanden. Wir arbeiten daran.",
+    "genreDropdown": "Alle Genres",
+    "criteriaDropdown": "Alle Kriterien",
+    "acceptance": {
+      "declared": "Erklärte Annahme",
+      "average": "Durchschnittliche Annahme"
+    },
+    "onlyFree": {
+      "active": "Nur Kostenlos",
+      "inactive": "Mit Gebühren und kostenlos"
+    },
+    "onlyWithPayments": {
+      "active": "Nur mit Auszahlungen",
+      "inactive": "Mit und ohne Auszahlungen"
+    },
+    "criteria": {
+      "simultaneous_submissions": "Simultane Einsendungen",
+      "previously_published": "Zuvor Veröffentlicht",
+      "payment": "Auszahlung",
+      "fee": "Gebühr",
+      "expedited_response": "Beschleunigte Antwort",
+      "available_in_print": "Verfügbar in Druckausgabe",
+      "provide_contributor_copies": "Exemplare bereitstellen",
+      "examples_online": "Beispiele online",
+      "active_on_social_media": "Aktiv in sozialen Medien"
+    }
   }
 }
